@@ -1,0 +1,270 @@
+ul {
+  list-style: none outside none;
+  padding-left: 0;
+  margin-bottom:0;
+}
+li {
+  display: block;
+  float: left;
+  margin-right: 6px;
+  cursor:pointer;
+}
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+body {
+  background: url(back.jpg);
+  margin: 0;
+  overflow-x: hidden;
+  background-size: 394px 352px;
+  font-family: "Lucida Console", Monaco, monospace;
+  font-size: 18px;
+}
+.sidebar {
+  height: 100%;
+  position:absolute;
+  top: 0;
+  bottom: 0;
+}
+.sidebar-l {
+  background: url(leaves-l.png) top right no-repeat;
+  left: -218px;
+  width: 218px;
+  background-size: 218px 2689px;
+}
+.sidebar-r {
+  background: url(leaves-r.png) top right no-repeat;
+  right: -230px;
+  width:  230px;
+  background-size: 230px 2689px;
+}
+.center {
+  /* display: inline-block; */
+  border: 2px #98978b;
+  border-style: hidden solid solid solid ;
+  margin: 0 20px;
+  height: auto;
+  padding: 0.01px 20px 20px 20px;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 550px;
+  padding-bottom: 25px;
+}
+.btn {
+  width: 141px;
+  height: 48px;
+  position: relative;
+  display: inline-block;
+  padding: 0 2px;
+}
+.label {
+  text-align: center;
+}
+.btn .label {
+  font-weight: 600;
+  line-height: 48px;
+  font-size: 15px;
+}
+.label a {
+  color: black;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+.btn .bg {
+  background: url(btn.png) no-repeat;
+  background-size: 141px 48px;
+  opacity: 0.5;
+}
+.btn:hover .bg {
+  opacity: 1.0;
+}
+.btn-container {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index:3;
+  height: 50px;
+}
+.btn-container > .bg > * {
+  background: url(back.jpg);
+  background-size: 394px 352px;
+  opacity: 0.95;
+  width: 505px;
+  display: inline-block;
+  height: 100%;
+}
+
+.jumbo {
+  text-align: center;
+  position: relative;
+  margin: 70px auto 0 auto;
+}
+.jumbo.w1 {
+  width: 385px;
+  height: 217px;
+}
+.jumbo.w1 .bg {
+  background: url(watermark-1.png) no-repeat;
+  background-size: 385px 217px;
+  opacity: 0.5;
+}
+
+.jumbo.w1 .label {
+  font-style: italic;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 60px;
+  padding: 53px 0 50px 0;
+}
+.purple {
+  color: purple;
+}
+.green {
+  color: green;
+}
+.flower-1 {
+  width: 120px;
+  height: 73px;
+  background: url(flower-1.png);
+  background-size: 120px 73px;
+  margin: 15px auto;
+}
+.flower-2 {
+  width: 73px;
+  height: 61px;
+  background: url(flower-2.png) no-repeat;
+  background-size: 73px 61px;
+  margin: 10px auto;
+}
+.emph {
+  font-size: 20px;
+  font-weight: 600;
+}
+.jumbo.w2 {
+  width: 430px;
+  height: 456px;
+  padding-top: 50px;
+}
+.jumbo.w2 .bg {
+  background: url(watermark-2.png) no-repeat;
+  background-size: 430px 516px;
+  opacity: 0.5;
+}
+.date-title {
+  font-size: 45px;
+  font-weight: 600;
+  font-style: italic;
+}
+.title {
+  margin-top: 10px;
+  font-size: 25px;
+  font-weight: 600;
+}
+.jumbo .title {
+  margin: 10px 0 10px 0;
+  font-style: italic;
+  font-size: 30px;
+}
+.dots {
+  margin: 10px 0;
+  text-align: center;
+}
+.dot {
+  height: 40px;
+  width:  40px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+}
+.dot.c1 {
+  background-color: #780070;
+}
+.dot.c2 {
+  background-color: #d64498;
+}
+.dot.c3 {
+  background-color: #f7769b;
+}
+.dot.c4 {
+  background-color: #e395c0;
+}
+.dot.c5 {
+  background-color: #ffb0c0;
+}
+.dot.c6 {
+  background-color: #fae6d9;
+}
+.jumbo.w3 {
+  width: 337px;
+  height: 113px;
+  padding-left: 106px;
+  padding-top: 35px
+}
+.jumbo.w3 .bg {
+  background: url(watermark-3.png) no-repeat;
+  background-size: 443px 148px;
+  opacity: 0.5;
+}
+.flower-3 {
+  width: 116px;
+  height: 94px;
+  background: url(flower-3.png) no-repeat;
+  background-size: 116px 94px;
+  position: absolute;
+  top: 27px;
+  left: 30px;
+}
+.contact {
+  width: 350px;
+  margin: 0 auto;
+  line-height: 40px;
+  height: 40px;
+  font-size: 20px;
+}
+.contact .data {
+  float: right;
+}
+.contact .name {
+  float: left;
+  font-weight: 600;
+}
+.jumbo.w4 {
+  width: 352px;
+  height: 174px;
+  padding-right: 100px;
+}
+.jumbo.w4 .bg {
+  background: url(watermark-4.png) no-repeat;
+  background-size: 452px 174px;
+  opacity: 0.5;
+}
+.flower-4 {
+  width: 113px;
+  height: 126px;
+  background: url(flower-4.png) no-repeat;
+  background-size: 113px 126px;
+  position: absolute;
+  top: 27px;
+  right: 40px;
+}
+.jumbo.w4 .label {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 30px;
+  padding: 72px 0;
+}

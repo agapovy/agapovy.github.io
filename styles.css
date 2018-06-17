@@ -47,6 +47,7 @@ body {
   margin: 0 20px;
   height: auto;
   padding: 20px;
+  padding-top: 60px;
 }
 .container {
   position: relative;
@@ -96,9 +97,10 @@ body {
   text-align: center;
   position: fixed;
   top: 0;
+  bottom: 0;
+  height: 50px;
   width: 100%;
   z-index:3;
-  height: 50px;
 }
 .btn-container > .bg > * {
   background: url(back.jpg);
@@ -112,12 +114,13 @@ body {
 .jumbo {
   text-align: center;
   position: relative;
-  margin: 50px auto 0 auto;
+  margin: 15px auto 0 auto;
   padding: 0 40px;
 }
 .jumbo.w1 {
   width: 305px;
   height: 217px;
+  margin-top: 0;
 }
 .jumbo.w1 .bg {
   background: url(watermark-1.png) no-repeat;
@@ -158,8 +161,9 @@ body {
 }
 .jumbo.w2 {
   width: 350px;
-  height: 456px;
+  height: 465px;
   padding-top: 50px;
+  margin-top: 50px;
 }
 .jumbo.w2 .bg {
   background: url(watermark-2.png) no-repeat;
@@ -269,4 +273,7 @@ body {
   font-weight: 600;
   line-height: 30px;
   padding: 72px 0;
+}
+.jumbo.w5 {
+  margin-top: 50px;
 }

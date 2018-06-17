@@ -113,9 +113,10 @@ body {
   text-align: center;
   position: relative;
   margin: 70px auto 0 auto;
+  padding: 0 40px;
 }
 .jumbo.w1 {
-  width: 385px;
+  width: 305px;
   height: 217px;
 }
 .jumbo.w1 .bg {
@@ -142,7 +143,7 @@ body {
   height: 73px;
   background: url(flower-1.png);
   background-size: 120px 73px;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 .flower-2 {
   width: 73px;
@@ -156,7 +157,7 @@ body {
   font-weight: 600;
 }
 .jumbo.w2 {
-  width: 430px;
+  width: 350px;
   height: 456px;
   padding-top: 50px;
 }
@@ -176,7 +177,7 @@ body {
   font-weight: 600;
 }
 .jumbo .title {
-  margin: 10px 0 10px 0;
+  margin: 7px 0 7px 0;
   font-style: italic;
   font-size: 30px;
 }
@@ -210,9 +211,9 @@ body {
   background-color: #fae6d9;
 }
 .jumbo.w3 {
-  width: 337px;
+  width: 297px;
   height: 113px;
-  padding-left: 106px;
+  padding-left: 120px;
   padding-top: 35px
 }
 .jumbo.w3 .bg {
@@ -244,9 +245,10 @@ body {
   font-weight: 600;
 }
 .jumbo.w4 {
-  width: 352px;
+  width: 332px;
   height: 174px;
   padding-right: 100px;
+  padding-left: 20px;
 }
 .jumbo.w4 .bg {
   background: url(watermark-4.png) no-repeat;

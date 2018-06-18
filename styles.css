@@ -119,8 +119,9 @@ body {
 }
 .jumbo.w1 {
   width: 305px;
-  height: 217px;
+  height: 164px;
   margin-top: 0;
+  padding-top: 53px;
 }
 .jumbo.w1 .bg {
   background: url(watermark-1.png) no-repeat;
@@ -131,9 +132,8 @@ body {
 .jumbo.w1 .label {
   font-style: italic;
   font-size: 40px;
-  font-weight: 500;
+  font-weight: bold;
   line-height: 60px;
-  padding: 53px 0 50px 0;
 }
 .purple {
   color: purple;

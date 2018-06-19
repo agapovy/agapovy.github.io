@@ -1,12 +1,14 @@
+/* line 33, sass/styles.sass */
 body {
-  background: url(back.jpg);
+  background: url("back.jpg");
   margin: 0;
   overflow-x: hidden;
-  background-size: 394px 352px;
+  background-size: 394.5px 352.5px;
   font-family: "Courier New";
   font-size: 18px;
 }
 
+/* line 41, sass/styles.sass */
 .sidebar {
   height: 100%;
   position: absolute;
@@ -14,20 +16,23 @@ body {
   bottom: 0;
 }
 
+/* line 47, sass/styles.sass */
 .sidebar-l {
-  background: url(leaves-l.png) top right no-repeat;
+  background: url("leaves-l.png") top right no-repeat;
   left: -218px;
   width: 218px;
   background-size: 218px 2689px;
 }
 
+/* line 53, sass/styles.sass */
 .sidebar-r {
-  background: url(leaves-r.png) top right no-repeat;
+  background: url("leaves-r.png") top right no-repeat;
   right: -230px;
   width: 230px;
-  background-size: 230px 2689px;
+  background-size: 230px 2688px;
 }
 
+/* line 59, sass/styles.sass */
 .center {
   /* display: inline-block; */
   border: 2px #98978b;
@@ -38,6 +43,7 @@ body {
   padding-top: 60px;
 }
 
+/* line 68, sass/styles.sass */
 .container {
   position: relative;
   margin: 0 auto;
@@ -45,24 +51,11 @@ body {
   padding-bottom: 25px;
 }
 
-.btn {
-  width: 141px;
-  height: 48px;
-  position: relative;
-  display: inline-block;
-  padding: 0 2px;
-}
-
+/* line 74, sass/styles.sass */
 .label {
   text-align: center;
 }
-
-.btn .label {
-  font-weight: 600;
-  line-height: 48px;
-  font-size: 15px;
-}
-
+/* line 76, sass/styles.sass */
 .label a {
   color: black;
   text-decoration: none;
@@ -71,6 +64,7 @@ body {
   display: block;
 }
 
+/* line 83, sass/styles.sass */
 .bg {
   position: absolute;
   top: 0;
@@ -80,15 +74,32 @@ body {
   z-index: -1;
 }
 
+/* line 91, sass/styles.sass */
+.btn {
+  width: 141px;
+  height: 48px;
+  position: relative;
+  display: inline-block;
+  padding: 0 2px;
+}
+/* line 97, sass/styles.sass */
 .btn .bg {
-  background: url(btn.png) no-repeat;
+  background: url("btn.png") no-repeat;
   background-size: 141px 48px;
   opacity: 0.5;
 }
+/* line 101, sass/styles.sass */
 .btn:hover .bg {
   opacity: 1;
 }
+/* line 103, sass/styles.sass */
+.btn .label {
+  font-weight: bold;
+  line-height: 48px;
+  font-size: 15px;
+}
 
+/* line 109, sass/styles.sass */
 .btn-container {
   text-align: center;
   position: fixed;
@@ -98,103 +109,177 @@ body {
   width: 100%;
   z-index: 3;
 }
+/* line 117, sass/styles.sass */
 .btn-container > .bg > * {
-  background: url(back.jpg);
-  background-size: 394px 352px;
+  background: url("back.jpg");
+  background-size: 394.5px 352.5px;
   opacity: 0.95;
-  width: 505px;
+  width: 500px;
   display: inline-block;
   height: 100%;
 }
 
+/* line 133, sass/styles.sass */
 .jumbo {
   text-align: center;
   position: relative;
   margin: 15px auto 0 auto;
   padding: 0 40px;
 }
+/* line 138, sass/styles.sass */
+.jumbo.title {
+  margin: 7px 0 7px 0;
+  font-style: italic;
+  font-size: 30px;
+}
+/* line 142, sass/styles.sass */
 .jumbo.w1 {
   width: 305px;
   height: 164px;
   margin-top: 0;
   padding-top: 53px;
 }
+/* line 147, sass/styles.sass */
 .jumbo.w1 .bg {
-  background: url(watermark-1.png) no-repeat;
+  background: url("watermark-1.png") top left no-repeat;
   background-size: 385px 217px;
   opacity: 0.5;
 }
+/* line 150, sass/styles.sass */
 .jumbo.w1 .label {
   font-style: italic;
   font-size: 40px;
   font-weight: bold;
   line-height: 60px;
 }
+/* line 155, sass/styles.sass */
+.jumbo.w2 {
+  width: 348.5px;
+  height: 466.5px;
+  padding-top: 50px;
+  margin-top: 50px;
+}
+/* line 160, sass/styles.sass */
+.jumbo.w2 .bg {
+  background: url("watermark-2.png") top left no-repeat;
+  background-size: 428.5px 516.5px;
+  opacity: 0.5;
+}
+/* line 163, sass/styles.sass */
+.jumbo.w3 {
+  width: 253.5px;
+  height: 113px;
+  padding-left: 135px;
+  padding-top: 35px;
+}
+/* line 168, sass/styles.sass */
+.jumbo.w3 .bg {
+  background: url("watermark-3.png") top left no-repeat;
+  background-size: 443.5px 148px;
+  opacity: 0.5;
+}
+/* line 171, sass/styles.sass */
+.jumbo.w4 {
+  width: 331.5px;
+  height: 174px;
+  padding-left: 20px;
+  padding-right: 100px;
+}
+/* line 176, sass/styles.sass */
+.jumbo.w4 .bg {
+  background: url("watermark-4.png") top left no-repeat;
+  background-size: 451.5px 174px;
+  opacity: 0.5;
+}
+/* line 179, sass/styles.sass */
+.jumbo.w4 .label {
+  font-size: 32px;
+  font-weight: bold;
+  line-height: 30px;
+  padding: 72px 0;
+}
+/* line 184, sass/styles.sass */
+.jumbo.w5 {
+  margin-top: 50px;
+}
 
+/* line 188, sass/styles.sass */
 .purple {
   color: purple;
 }
 
+/* line 191, sass/styles.sass */
 .green {
   color: green;
 }
 
+/* line 194, sass/styles.sass */
 .flower-1 {
-  width: 120px;
-  height: 73px;
-  background: url(flower-1.png);
-  background-size: 120px 73px;
+  background: url("flower-1.png") top left no-repeat;
+  background-size: 119.5px 72.5px;
+  width: 119.5px;
+  height: 72.5px;
   margin: 10px auto;
 }
 
+/* line 197, sass/styles.sass */
 .flower-2 {
-  width: 73px;
-  height: 61px;
-  background: url(flower-2.png) no-repeat;
-  background-size: 73px 61px;
+  background: url("flower-2.png") top left no-repeat;
+  background-size: 72.5px 61.5px;
+  width: 72.5px;
+  height: 61.5px;
   margin: 10px auto;
 }
 
+/* line 200, sass/styles.sass */
+.flower-3 {
+  background: url("flower-3.png") top left no-repeat;
+  background-size: 115.5px 93.5px;
+  width: 115.5px;
+  height: 93.5px;
+  position: absolute;
+  top: 27px;
+  left: 30px;
+}
+
+/* line 205, sass/styles.sass */
+.flower-4 {
+  background: url("flower-4.png") top left no-repeat;
+  background-size: 112.5px 125.5px;
+  width: 112.5px;
+  height: 125.5px;
+  position: absolute;
+  top: 27px;
+  right: 40px;
+}
+
+/* line 211, sass/styles.sass */
 .emph {
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
-.jumbo.w2 {
-  width: 350px;
-  height: 465px;
-  padding-top: 50px;
-  margin-top: 50px;
-}
-.jumbo.w2 .bg {
-  background: url(watermark-2.png) no-repeat;
-  background-size: 430px 516px;
-  opacity: 0.5;
-}
-
+/* line 215, sass/styles.sass */
 .date-title {
   font-size: 45px;
-  font-weight: 600;
+  font-weight: bold;
   font-style: italic;
 }
 
+/* line 220, sass/styles.sass */
 .title {
   margin-top: 10px;
   font-size: 25px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
-.jumbo .title {
-  margin: 7px 0 7px 0;
-  font-style: italic;
-  font-size: 30px;
-}
-
+/* line 225, sass/styles.sass */
 .dots {
   margin: 10px 0;
   text-align: center;
 }
 
+/* line 229, sass/styles.sass */
 .dot {
   height: 40px;
   width: 40px;
@@ -202,47 +287,32 @@ body {
   border-radius: 50%;
   display: inline-block;
 }
+/* line 235, sass/styles.sass */
 .dot.c1 {
   background-color: #780070;
 }
+/* line 237, sass/styles.sass */
 .dot.c2 {
   background-color: #d64498;
 }
+/* line 239, sass/styles.sass */
 .dot.c3 {
   background-color: #f7769b;
 }
+/* line 241, sass/styles.sass */
 .dot.c4 {
   background-color: #e395c0;
 }
+/* line 243, sass/styles.sass */
 .dot.c5 {
   background-color: #ffb0c0;
 }
+/* line 245, sass/styles.sass */
 .dot.c6 {
   background-color: #fae6d9;
 }
 
-.jumbo.w3 {
-  width: 282px;
-  height: 113px;
-  padding-left: 135px;
-  padding-top: 35px;
-}
-.jumbo.w3 .bg {
-  background: url(watermark-3.png) no-repeat;
-  background-size: 443px 148px;
-  opacity: 0.5;
-}
-
-.flower-3 {
-  width: 116px;
-  height: 94px;
-  background: url(flower-3.png) no-repeat;
-  background-size: 116px 94px;
-  position: absolute;
-  top: 27px;
-  left: 30px;
-}
-
+/* line 249, sass/styles.sass */
 .contact {
   width: 350px;
   margin: 0 auto;
@@ -250,56 +320,29 @@ body {
   height: 40px;
   font-size: 20px;
 }
+/* line 255, sass/styles.sass */
 .contact .data {
   float: right;
 }
+/* line 257, sass/styles.sass */
 .contact .name {
   float: left;
-  font-weight: 600;
+  font-weight: bold;
 }
 
-.jumbo.w4 {
-  width: 332px;
-  height: 174px;
-  padding-right: 100px;
-  padding-left: 20px;
-}
-.jumbo.w4 .bg {
-  background: url(watermark-4.png) no-repeat;
-  background-size: 452px 174px;
-  opacity: 0.5;
-}
-
-.flower-4 {
-  width: 113px;
-  height: 126px;
-  background: url(flower-4.png) no-repeat;
-  background-size: 113px 126px;
-  position: absolute;
-  top: 27px;
-  right: 40px;
-}
-
-.jumbo.w4 .label {
-  font-size: 32px;
-  font-weight: 600;
-  line-height: 30px;
-  padding: 72px 0;
-}
-.jumbo.w5 {
-  margin-top: 50px;
-}
-
+/* line 261, sass/styles.sass */
 .halfbr {
   margin-top: 6px;
 }
 
+/* line 264, sass/styles.sass */
 ul {
   list-style: none outside none;
   padding-left: 0;
   margin-bottom: 0;
 }
 
+/* line 269, sass/styles.sass */
 li {
   display: block;
   float: left;
@@ -307,10 +350,9 @@ li {
   cursor: pointer;
 }
 
+/* line 275, sass/styles.sass */
 img {
   display: block;
   height: auto;
   max-width: 100%;
 }
-
-/*# sourceMappingURL=styles/styles.css.map */

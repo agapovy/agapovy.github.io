@@ -1,6 +1,6 @@
 /* line 33, sass/styles.sass */
 body {
-  background: url("back.jpg");
+  background: url("images/back.jpg");
   margin: 0;
   overflow-x: hidden;
   background-size: 394.5px 352.5px;
@@ -18,7 +18,7 @@ body {
 
 /* line 47, sass/styles.sass */
 .sidebar-l {
-  background: url("leaves-l.png") top right no-repeat;
+  background: url("images/leaves-l.png") top right no-repeat;
   left: -218px;
   width: 218px;
   background-size: 218px 2689px;
@@ -26,7 +26,7 @@ body {
 
 /* line 53, sass/styles.sass */
 .sidebar-r {
-  background: url("leaves-r.png") top right no-repeat;
+  background: url("images/leaves-r.png") top right no-repeat;
   right: -230px;
   width: 230px;
   background-size: 230px 2688px;
@@ -84,7 +84,7 @@ body {
 }
 /* line 97, sass/styles.sass */
 .btn .bg {
-  background: url("btn.png") no-repeat;
+  background: url("images/btn.png") no-repeat;
   background-size: 141px 48px;
   opacity: 0.5;
 }
@@ -111,7 +111,7 @@ body {
 }
 /* line 117, sass/styles.sass */
 .btn-container > .bg > * {
-  background: url("back.jpg");
+  background: url("images/back.jpg");
   background-size: 394.5px 352.5px;
   opacity: 0.95;
   width: 500px;
@@ -141,7 +141,7 @@ body {
 }
 /* line 147, sass/styles.sass */
 .jumbo.w1 .bg {
-  background: url("watermark-1.png") top left no-repeat;
+  background: url("images/watermark-1.png") top left no-repeat;
   background-size: 385px 217px;
   opacity: 0.5;
 }
@@ -161,7 +161,7 @@ body {
 }
 /* line 160, sass/styles.sass */
 .jumbo.w2 .bg {
-  background: url("watermark-2.png") top left no-repeat;
+  background: url("images/watermark-2.png") top left no-repeat;
   background-size: 428.5px 516.5px;
   opacity: 0.5;
 }
@@ -174,7 +174,7 @@ body {
 }
 /* line 168, sass/styles.sass */
 .jumbo.w3 .bg {
-  background: url("watermark-3.png") top left no-repeat;
+  background: url("images/watermark-3.png") top left no-repeat;
   background-size: 443.5px 148px;
   opacity: 0.5;
 }
@@ -187,7 +187,7 @@ body {
 }
 /* line 176, sass/styles.sass */
 .jumbo.w4 .bg {
-  background: url("watermark-4.png") top left no-repeat;
+  background: url("images/watermark-4.png") top left no-repeat;
   background-size: 451.5px 174px;
   opacity: 0.5;
 }
@@ -215,7 +215,7 @@ body {
 
 /* line 194, sass/styles.sass */
 .flower-1 {
-  background: url("flower-1.png") top left no-repeat;
+  background: url("images/flower-1.png") top left no-repeat;
   background-size: 119.5px 72.5px;
   width: 119.5px;
   height: 72.5px;
@@ -224,7 +224,7 @@ body {
 
 /* line 197, sass/styles.sass */
 .flower-2 {
-  background: url("flower-2.png") top left no-repeat;
+  background: url("images/flower-2.png") top left no-repeat;
   background-size: 72.5px 61.5px;
   width: 72.5px;
   height: 61.5px;
@@ -233,7 +233,7 @@ body {
 
 /* line 200, sass/styles.sass */
 .flower-3 {
-  background: url("flower-3.png") top left no-repeat;
+  background: url("images/flower-3.png") top left no-repeat;
   background-size: 115.5px 93.5px;
   width: 115.5px;
   height: 93.5px;
@@ -244,7 +244,7 @@ body {
 
 /* line 205, sass/styles.sass */
 .flower-4 {
-  background: url("flower-4.png") top left no-repeat;
+  background: url("images/flower-4.png") top left no-repeat;
   background-size: 112.5px 125.5px;
   width: 112.5px;
   height: 125.5px;

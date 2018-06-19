@@ -1062,4 +1062,11 @@ body {
     right: 0;
     background-position: 0 0;
   }
+  
+   .katya_text {
+    text-align: center;
+    position: relative;
+    margin: 21px auto 0 auto;
+    padding: 0 25px;
+  }
 }

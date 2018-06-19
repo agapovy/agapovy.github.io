@@ -10,270 +10,293 @@ $i_btn:        "images/btn.png"
 $i_leaves_l:   "images/leaves-l.png"
 $i_leaves_r:   "images/leaves-r.png"
 $i_back:       "images/back.jpg"
+$i_al:         "images/arrow-l.png"
+$i_ar:         "images/arrow-r.png"
 
 
-$r: 0.7
+@function w($img, $r)
+  @return $r * 0.7 * image-width($img)
 
-$container_width: 550px
+@function h($img, $r)
+  @return $r * 0.7 * image-height($img)
 
-@function w($img)
-  @return $r * image-width($img)
-
-@function h($img)
-  @return $r * image-height($img)
-
-=img($img)
+=img($img, $r)
   background: url($img) top left no-repeat
-  background-size: w($img) h($img)
+  background-size: w($img, $r) h($img, $r)
 
-=imgf($img)
-  +img($img)
-  width: w($img)
-  height: h($img)
+=imgf($img, $r)
+  +img($img, $r)
+  width: w($img, $r)
+  height: h($img, $r)
 
-body
-  background: url($i_back)
-  margin: 0
-  overflow-x: hidden
-  background-size: w($i_back) h($i_back)
-  font-family: 'Courier New'
-  font-size: 18px
 
-.sidebar
-  height: 100%
-  position: absolute
-  top: 0
-  bottom: 0
+=layout($r)
+  $container_width: (550px * $r)
 
-.sidebar-l
-  background: url($i_leaves_l) top right no-repeat
-  left: - w($i_leaves_l)
-  width: w($i_leaves_l)
-  background-size: w($i_leaves_l) h($i_leaves_l)
+  body
+    background: url($i_back)
+    margin: 0
+    overflow-x: hidden
+    background-size: w($i_back, $r) h($i_back, $r)
+    font-family: 'Courier New'
+    font-size: (18px * $r)
 
-.sidebar-r
-  background: url($i_leaves_r) top right no-repeat
-  right: - w($i_leaves_r)
-  width: w($i_leaves_r)
-  background-size: w($i_leaves_r) h($i_leaves_r)
+  .sidebar
+    height: 100%
+    position: absolute
+    top: 0
+    bottom: 0
 
-.center
-  /* display: inline-block;
-  border: 2px #98978b
-  border-style: hidden solid solid solid
-  margin: 0 20px
-  height: auto
-  padding: 20px
-  padding-top: 60px
+  .sidebar-l
+    background: url($i_leaves_l) top right no-repeat
+    left: - w($i_leaves_l, $r)
+    width: w($i_leaves_l, $r)
+    background-size: w($i_leaves_l, $r) h($i_leaves_l, $r)
 
-.container
-  position: relative
-  margin: 0 auto
-  width: $container_width
-  padding-bottom: 25px
+  .sidebar-r
+    background: url($i_leaves_r) top right no-repeat
+    right: - w($i_leaves_r, $r)
+    width: w($i_leaves_r, $r)
+    background-size: w($i_leaves_r, $r) h($i_leaves_r, $r)
 
-.label
-  text-align: center
-  a
-    color: black
-    text-decoration: none
+  .center
+    border: (2px * $r) #98978b
+    border-style: hidden solid solid solid
+    margin: 0 (20px * $r)
+    height: auto
+    padding: (20px * $r)
+    padding-top: (60px * $r)
+
+  .container
+    position: relative
+    margin: 0 auto
+    width: $container_width
+    padding-bottom: (25px * $r)
+
+  .label
+    text-align: center
+    a
+      color: black
+      text-decoration: none
+      width: 100%
+      height: 100%
+      display: block
+
+  .bg
+    position: absolute
+    top: 0
+    left: 0
     width: 100%
     height: 100%
-    display: block
+    z-index: -1
 
-.bg
-  position: absolute
-  top: 0
-  left: 0
-  width: 100%
-  height: 100%
-  z-index: -1
-
-.btn
-  width: w($i_btn)
-  height: h($i_btn)
-  position: relative
-  display: inline-block
-  padding: 0 2px
-  .bg
-    background: url($i_btn) no-repeat
-    background-size: w($i_btn) h($i_btn)
-    opacity: 0.5
-  &:hover .bg
-    opacity: 1.0
-  .label
-    font-weight: bold
-    line-height: h($i_btn)
-    font-size: 15px
-
-
-.btn-container
-  text-align: center
-  position: fixed
-  top: 0
-  bottom: 0
-  height: h($i_btn) + 2px
-  width: 100%
-  z-index: 3
-  > .bg > *
-    background: url($i_back)
-    background-size: w($i_back) h($i_back)
-    opacity: 0.95
-    width: $container_width - 50px
+  .btn
+    width: w($i_btn, $r)
+    height: h($i_btn, $r)
+    position: relative
     display: inline-block
-    height: 100%
-
-$j_pad: 40px
-$j_w1_padt: 53px
-$j_w2_padt: 50px
-$j_w3_padl: 135px
-$j_w3_padt: 35px
-$j_w4_padl: 20px
-$j_w4_padr: 100px
-
-.jumbo
-  text-align: center
-  position: relative
-  margin: 15px auto 0 auto
-  padding: 0 $j_pad
-  &.title
-    margin: 7px 0 7px 0
-    font-style: italic
-    font-size: 30px
-  &.w1
-    width: w($i_wm1) - 2 * $j_pad
-    height: h($i_wm1) - $j_w1_padt
-    margin-top: 0
-    padding-top: $j_w1_padt
+    padding: 0 (2px * $r)
     .bg
-      +img($i_wm1)
+      background: url($i_btn) no-repeat
+      background-size: w($i_btn, $r) h($i_btn, $r)
       opacity: 0.5
+    &:hover .bg
+      opacity: 1.0
     .label
+      font-weight: bold
+      line-height: h($i_btn, $r)
+      font-size: (15px * $r)
+
+
+  .btn-container
+    text-align: center
+    position: fixed
+    top: 0
+    bottom: 0
+    height: h($i_btn, $r) + (2px * $r)
+    width: 100%
+    z-index: 3
+    > .bg > *
+      background: url($i_back)
+      background-size: w($i_back, $r) h($i_back, $r)
+      opacity: 0.95
+      width: $container_width - (50px * $r)
+      display: inline-block
+      height: 100%
+
+  $j_pad: (40px * $r)
+  $j_w1_padt: (53px * $r)
+  $j_w2_padt: (50px * $r)
+  $j_w3_padl: (135px * $r)
+  $j_w3_padt: (35px * $r)
+  $j_w4_padl: (20px * $r)
+  $j_w4_padr: (100px * $r)
+
+  .jumbo
+    text-align: center
+    position: relative
+    margin: (15px * $r) auto 0 auto
+    padding: 0 $j_pad
+    &.title
+      margin: (7px * $r) 0 (7px * $r) 0
       font-style: italic
-      font-size: 40px
-      font-weight: bold
-      line-height: 60px
-  &.w2
-    width: w($i_wm2) - 2 * $j_pad
-    height: h($i_wm2) - $j_w2_padt
-    padding-top: $j_w2_padt
-    margin-top: 50px
-    .bg
-      +img($i_wm2)
-      opacity: 0.5
-  &.w3
-    width: w($i_wm2) - $j_pad - $j_w3_padl
-    height: h($i_wm3) - $j_w3_padt
-    padding-left: $j_w3_padl
-    padding-top: $j_w3_padt
-    .bg
-      +img($i_wm3)
-      opacity: 0.5
-  &.w4
-    width: w($i_wm4) - $j_w4_padr - $j_w4_padl
-    height: h($i_wm4)
-    padding-left: 20px
-    padding-right: 100px
-    .bg
-      +img($i_wm4)
-      opacity: 0.5
-    .label
-      font-size: 32px
-      font-weight: bold
-      line-height: 30px
-      padding: 72px 0
-  &.w5
-    margin-top: 50px
+      font-size: (30px * $r)
+    &.w1
+      width: w($i_wm1, $r) - 2 * $j_pad
+      height: h($i_wm1, $r) - $j_w1_padt
+      margin-top: 0
+      padding-top: $j_w1_padt
+      .bg
+        +img($i_wm1, $r)
+        opacity: 0.5
+      .label
+        font-style: italic
+        font-size: (40px * $r)
+        font-weight: bold
+        line-height: (60px * $r)
+    &.w2
+      width: w($i_wm2, $r) - 2 * $j_pad
+      height: h($i_wm2, $r) - $j_w2_padt
+      padding-top: $j_w2_padt
+      margin-top: (50px * $r)
+      .bg
+        +img($i_wm2, $r)
+        opacity: 0.5
+    &.w3
+      width: w($i_wm2, $r) - $j_pad - $j_w3_padl
+      height: h($i_wm3, $r) - $j_w3_padt
+      padding-left: $j_w3_padl
+      padding-top: $j_w3_padt
+      .bg
+        +img($i_wm3, $r)
+        opacity: 0.5
+    &.w4
+      width: w($i_wm4, $r) - $j_w4_padr - $j_w4_padl
+      height: h($i_wm4, $r)
+      padding-left: (20px * $r)
+      padding-right: (100px * $r)
+      .bg
+        +img($i_wm4, $r)
+        opacity: 0.5
+      .label
+        font-size: (32px * $r)
+        font-weight: bold
+        line-height: (30px * $r)
+        padding: (72px * $r) 0
+    &.w5
+      margin-top: (50px * $r)
 
 
-.purple
-  color: purple
+  .purple
+    color: purple
 
-.green
-  color: green
+  .green
+    color: green
 
-.flower-1
-  +imgf($i_fl1)
-  margin: 10px auto
-.flower-2
-  +imgf($i_fl2)
-  margin: 10px auto
-.flower-3
-  +imgf($i_fl3)
-  position: absolute
-  top: 27px
-  left: 30px
-.flower-4
-  +imgf($i_fl4)
-  position: absolute
-  top: 27px
-  right: 40px
+  .flower-1
+    +imgf($i_fl1, $r)
+    margin: (10px * $r) auto
+  .flower-2
+    +imgf($i_fl2, $r)
+    margin: (10px * $r) auto
+  .flower-3
+    +imgf($i_fl3, $r)
+    position: absolute
+    top: (27px * $r)
+    left: (30px * $r)
+  .flower-4
+    +imgf($i_fl4, $r)
+    position: absolute
+    top: (27px * $r)
+    right: (40px * $r)
 
-.emph
-  font-size: 20px
-  font-weight: bold
-
-.date-title
-  font-size: 45px
-  font-weight: bold
-  font-style: italic
-
-.title
-  margin-top: 10px
-  font-size: 25px
-  font-weight: bold
-
-.dots
-  margin: 10px 0
-  text-align: center
-
-.dot
-  height: 40px
-  width: 40px
-  background-color: #bbb
-  border-radius: 50%
-  display: inline-block
-  &.c1
-    background-color: #780070
-  &.c2
-    background-color: #d64498
-  &.c3
-    background-color: #f7769b
-  &.c4
-    background-color: #e395c0
-  &.c5
-    background-color: #ffb0c0
-  &.c6
-    background-color: #fae6d9
-
-
-.contact
-  width: 350px
-  margin: 0 auto
-  line-height: 40px
-  height: 40px
-  font-size: 20px
-  .data
-    float: right
-  .name
-    float: left
+  .emph
+    font-size: (20px * $r)
     font-weight: bold
 
-.halfbr
-  margin-top: 6px
+  .date-title
+    font-size: (45px * $r)
+    font-weight: bold
+    font-style: italic
 
-ul
-  list-style: none outside none
-  padding-left: 0
-  margin-bottom: 0
+  .title
+    margin-top: (10px * $r)
+    font-size: (25px * $r)
+    font-weight: bold
 
-li
-  display: block
-  float: left
-  margin-right: 6px
-  cursor: pointer
+  .dots
+    margin: (10px * $r) 0
+    text-align: center
 
-img
-  display: block
-  height: auto
-  max-width: 100%
+  .dot
+    height: (40px * $r)
+    width: (40px * $r)
+    background-color: #bbb
+    border-radius: 50%
+    display: inline-block
+    &.c1
+      background-color: #780070
+    &.c2
+      background-color: #d64498
+    &.c3
+      background-color: #f7769b
+    &.c4
+      background-color: #e395c0
+    &.c5
+      background-color: #ffb0c0
+    &.c6
+      background-color: #fae6d9
+
+
+  .contact
+    width: (350px * $r)
+    margin: 0 auto
+    line-height: (40px * $r)
+    height: (40px * $r)
+    font-size: (20px * $r)
+    .data
+      float: right
+    .name
+      float: left
+      font-weight: bold
+
+  .halfbr
+    margin-top: (6px * $r)
+
+  ul
+    list-style: none outside none
+    padding-left: 0
+    margin-bottom: 0
+
+  li
+    display: block
+    float: left
+    margin-right: (6px * $r)
+    cursor: pointer
+
+  img
+    display: block
+    height: auto
+    max-width: 100%
+
+  .lSAction>.lSPrev
+    +imgf($i_al, $r)
+    left: 0
+    background-position: 0 0
+  .lSAction>.lSNext
+    +imgf($i_ar, $r)
+    right: 0
+    background-position: 0 0
+
+
+$xl_screen: 1300px
+$l_screen: 1100px
+
+@media only screen and (min-width: $xl_screen) 
+  +layout(1.4)
+
+@media only screen and (min-width: $l_screen) and (max-width: $xl_screen - 1) 
+  +layout(1.2)
+
+@media only screen and (max-width: $l_screen - 1)
+  +layout(1.0)

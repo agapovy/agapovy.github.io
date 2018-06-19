@@ -30,22 +30,47 @@ $i_ar:         "images/arrow-r.png"
   height: h($img, $r)
 
 
+body
+  margin: 0
+  overflow-x: hidden
+  font-family: 'Courier New', monoscape
+.btn-container
+  text-align: center
+  position: fixed
+  top: 0
+  bottom: 0
+  width: 100%
+  z-index: 3
+.sidebar
+  height: 100%
+  position: absolute
+  top: 0
+  bottom: 0
+
+.label
+  text-align: center
+  a
+    color: black
+    text-decoration: none
+    width: 100%
+    height: 100%
+    display: block
+
+.bg
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+  z-index: -1
+
+
 =layout($r)
   $container_width: (550px * $r)
-
   body
     background: url($i_back)
-    margin: 0
-    overflow-x: hidden
     background-size: w($i_back, $r) h($i_back, $r)
-    font-family: 'Courier New', monoscape
     font-size: (18px * $r)
-
-  .sidebar
-    height: 100%
-    position: absolute
-    top: 0
-    bottom: 0
 
   .sidebar-l
     background: url($i_leaves_l) top right no-repeat
@@ -54,7 +79,7 @@ $i_ar:         "images/arrow-r.png"
     background-size: w($i_leaves_l, $r) h($i_leaves_l, $r)
 
   .sidebar-r
-    background: url($i_leaves_r) top right no-repeat
+    background: url($i_leaves_r) top left no-repeat
     right: - w($i_leaves_r, $r)
     width: w($i_leaves_r, $r)
     background-size: w($i_leaves_r, $r) h($i_leaves_r, $r)
@@ -72,23 +97,6 @@ $i_ar:         "images/arrow-r.png"
     margin: 0 auto
     width: $container_width
     padding-bottom: (25px * $r)
-
-  .label
-    text-align: center
-    a
-      color: black
-      text-decoration: none
-      width: 100%
-      height: 100%
-      display: block
-
-  .bg
-    position: absolute
-    top: 0
-    left: 0
-    width: 100%
-    height: 100%
-    z-index: -1
 
   .btn
     width: w($i_btn, $r)
@@ -109,13 +117,7 @@ $i_ar:         "images/arrow-r.png"
 
 
   .btn-container
-    text-align: center
-    position: fixed
-    top: 0
-    bottom: 0
     height: h($i_btn, $r) + (2px * $r)
-    width: 100%
-    z-index: 3
     > .bg > *
       background: url($i_back)
       background-size: w($i_back, $r) h($i_back, $r)

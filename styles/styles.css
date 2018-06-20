@@ -88,7 +88,7 @@ a {
   .container {
     position: relative;
     margin: 0 auto;
-    width: 770px;
+    width: 700px;
     padding-bottom: 35px;
   }
 
@@ -126,72 +126,72 @@ a {
     background: url("images/back.jpg");
     background-size: 773.22px 690.9px;
     opacity: 0.95;
-    width: 658px;
+    width: 588px;
     display: inline-block;
     height: 100%;
   }
 
-  /* line 148, sass/styles.sass */
+  /* line 140, sass/styles.sass */
   .jumbo {
     text-align: center;
     position: relative;
     margin: 21px auto 0 auto;
-    padding: 0 56px;
+    padding: 0 0px;
   }
-  /* line 153, sass/styles.sass */
+  /* line 145, sass/styles.sass */
   .jumbo.title {
-    margin: 9.8px 0 9.8px 0;
+    margin: 9.8px 0 19.6px 0;
     font-style: italic;
     font-size: 42px;
   }
-  /* line 157, sass/styles.sass */
+  /* line 149, sass/styles.sass */
   .jumbo.w1 {
-    width: 416.22px;
+    width: 528.22px;
     height: 223.72px;
     margin-top: 0;
     padding-top: 74.2px;
   }
-  /* line 162, sass/styles.sass */
+  /* line 155, sass/styles.sass */
   .jumbo.w1 > .bg {
     background: url("images/watermark-1.png") top left no-repeat;
     background-size: 528.22px 297.92px;
     opacity: 0.5;
   }
-  /* line 165, sass/styles.sass */
+  /* line 158, sass/styles.sass */
   .jumbo.w1 .label {
     font-style: italic;
     font-size: 56px;
     font-weight: bold;
     line-height: 84px;
   }
-  /* line 170, sass/styles.sass */
+  /* line 163, sass/styles.sass */
   .jumbo.w2 {
-    width: 476px;
+    width: 504px;
     height: 655.34px;
-    padding-top: 53.2px;
+    padding: 53.2px 42px 0 42px;
     margin-top: 70px;
   }
-  /* line 175, sass/styles.sass */
+  /* line 170, sass/styles.sass */
   .jumbo.w2 > .bg {
     background: url("images/watermark-2.png") top left no-repeat;
     background-size: 588px 708.54px;
     opacity: 0.5;
   }
-  /* line 178, sass/styles.sass */
+  /* line 173, sass/styles.sass */
   .jumbo.w3 {
-    width: 336px;
+    width: 350px;
     height: 153.86px;
-    padding-left: 210px;
+    padding-left: 196px;
     padding-top: 49px;
     padding-right: 42px;
   }
-  /* line 184, sass/styles.sass */
+  /* line 182, sass/styles.sass */
   .jumbo.w3 > .bg {
     background: url("images/watermark-3.png") top left no-repeat;
     background-size: 608.58px 202.86px;
     opacity: 0.5;
   }
-  /* line 187, sass/styles.sass */
+  /* line 185, sass/styles.sass */
   .jumbo.w4 {
     width: 451.36px;
     height: 239.12px;
@@ -247,12 +247,12 @@ a {
   /* line 216, sass/styles.sass */
   .flower-3 {
     background: url("images/flower-3.png") top left no-repeat;
-    background-size: 158.76px 128.38px;
-    width: 158.76px;
-    height: 128.38px;
+    background-size: 142.884px 115.542px;
+    width: 142.884px;
+    height: 115.542px;
     position: absolute;
-    top: 37.8px;
-    left: 42px;
+    top: 46.2px;
+    left: 46.2px;
   }
 
   /* line 221, sass/styles.sass */
@@ -281,7 +281,7 @@ a {
 
   /* line 236, sass/styles.sass */
   .title {
-    margin-top: 14px;
+    margin: 14px auto 9.8px auto;
     font-size: 35px;
     font-weight: bold;
   }
@@ -294,8 +294,8 @@ a {
 
   /* line 245, sass/styles.sass */
   .dot {
-    height: 56px;
-    width: 56px;
+    height: 49px;
+    width: 49px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -329,27 +329,25 @@ a {
   .contact {
     /* width: (350px * $r) */
     margin: 0 auto;
-    padding-left: 28px;
     line-height: 56px;
     height: 56px;
     font-size: 28px;
   }
-  /* line 272, sass/styles.sass */
+  /* line 271, sass/styles.sass */
   .contact .data {
     display: inline-block;
   }
-  /* line 275, sass/styles.sass */
+  /* line 274, sass/styles.sass */
   .contact .name {
     width: 140px;
     float: left;
     font-weight: bold;
   }
-  /* line 279, sass/styles.sass */
+  /* line 278, sass/styles.sass */
   .contact .vk {
     float: right;
-    padding-right: 42px;
   }
-  /* line 282, sass/styles.sass */
+  /* line 280, sass/styles.sass */
   .contact .vk > a {
     display: inline-block;
     background: url("images/vk.png") top left no-repeat;
@@ -358,19 +356,19 @@ a {
     height: 18.032px;
   }
 
-  /* line 286, sass/styles.sass */
+  /* line 284, sass/styles.sass */
   .halfbr {
     margin-top: 8.4px;
   }
 
-  /* line 289, sass/styles.sass */
+  /* line 287, sass/styles.sass */
   ul {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
 
-  /* line 294, sass/styles.sass */
+  /* line 292, sass/styles.sass */
   li {
     display: block;
     float: left;
@@ -378,14 +376,14 @@ a {
     cursor: pointer;
   }
 
-  /* line 300, sass/styles.sass */
+  /* line 298, sass/styles.sass */
   img {
     display: block;
     height: auto;
     max-width: 100%;
   }
 
-  /* line 305, sass/styles.sass */
+  /* line 303, sass/styles.sass */
   .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -395,7 +393,7 @@ a {
     background-position: 0 0;
   }
 
-  /* line 309, sass/styles.sass */
+  /* line 307, sass/styles.sass */
   .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -405,19 +403,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 313, sass/styles.sass */
+  /* line 311, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 316, sass/styles.sass */
+  /* line 314, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 32.2px;
     position: relative;
   }
-  /* line 320, sass/styles.sass */
+  /* line 318, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -465,7 +463,7 @@ a {
   .container {
     position: relative;
     margin: 0 auto;
-    width: 660px;
+    width: 600px;
     padding-bottom: 30px;
   }
 
@@ -503,72 +501,72 @@ a {
     background: url("images/back.jpg");
     background-size: 662.76px 592.2px;
     opacity: 0.95;
-    width: 564px;
+    width: 504px;
     display: inline-block;
     height: 100%;
   }
 
-  /* line 148, sass/styles.sass */
+  /* line 140, sass/styles.sass */
   .jumbo {
     text-align: center;
     position: relative;
     margin: 18px auto 0 auto;
-    padding: 0 48px;
+    padding: 0 0px;
   }
-  /* line 153, sass/styles.sass */
+  /* line 145, sass/styles.sass */
   .jumbo.title {
-    margin: 8.4px 0 8.4px 0;
+    margin: 8.4px 0 16.8px 0;
     font-style: italic;
     font-size: 36px;
   }
-  /* line 157, sass/styles.sass */
+  /* line 149, sass/styles.sass */
   .jumbo.w1 {
-    width: 356.76px;
+    width: 452.76px;
     height: 191.76px;
     margin-top: 0;
     padding-top: 63.6px;
   }
-  /* line 162, sass/styles.sass */
+  /* line 155, sass/styles.sass */
   .jumbo.w1 > .bg {
     background: url("images/watermark-1.png") top left no-repeat;
     background-size: 452.76px 255.36px;
     opacity: 0.5;
   }
-  /* line 165, sass/styles.sass */
+  /* line 158, sass/styles.sass */
   .jumbo.w1 .label {
     font-style: italic;
     font-size: 48px;
     font-weight: bold;
     line-height: 72px;
   }
-  /* line 170, sass/styles.sass */
+  /* line 163, sass/styles.sass */
   .jumbo.w2 {
-    width: 408px;
+    width: 432px;
     height: 561.72px;
-    padding-top: 45.6px;
+    padding: 45.6px 36px 0 36px;
     margin-top: 60px;
   }
-  /* line 175, sass/styles.sass */
+  /* line 170, sass/styles.sass */
   .jumbo.w2 > .bg {
     background: url("images/watermark-2.png") top left no-repeat;
     background-size: 504px 607.32px;
     opacity: 0.5;
   }
-  /* line 178, sass/styles.sass */
+  /* line 173, sass/styles.sass */
   .jumbo.w3 {
-    width: 288px;
+    width: 300px;
     height: 131.88px;
-    padding-left: 180px;
+    padding-left: 168px;
     padding-top: 42px;
     padding-right: 36px;
   }
-  /* line 184, sass/styles.sass */
+  /* line 182, sass/styles.sass */
   .jumbo.w3 > .bg {
     background: url("images/watermark-3.png") top left no-repeat;
     background-size: 521.64px 173.88px;
     opacity: 0.5;
   }
-  /* line 187, sass/styles.sass */
+  /* line 185, sass/styles.sass */
   .jumbo.w4 {
     width: 386.88px;
     height: 204.96px;
@@ -624,12 +622,12 @@ a {
   /* line 216, sass/styles.sass */
   .flower-3 {
     background: url("images/flower-3.png") top left no-repeat;
-    background-size: 136.08px 110.04px;
-    width: 136.08px;
-    height: 110.04px;
+    background-size: 122.472px 99.036px;
+    width: 122.472px;
+    height: 99.036px;
     position: absolute;
-    top: 32.4px;
-    left: 36px;
+    top: 39.6px;
+    left: 39.6px;
   }
 
   /* line 221, sass/styles.sass */
@@ -658,7 +656,7 @@ a {
 
   /* line 236, sass/styles.sass */
   .title {
-    margin-top: 12px;
+    margin: 12px auto 8.4px auto;
     font-size: 30px;
     font-weight: bold;
   }
@@ -671,8 +669,8 @@ a {
 
   /* line 245, sass/styles.sass */
   .dot {
-    height: 48px;
-    width: 48px;
+    height: 42px;
+    width: 42px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -706,27 +704,25 @@ a {
   .contact {
     /* width: (350px * $r) */
     margin: 0 auto;
-    padding-left: 24px;
     line-height: 48px;
     height: 48px;
     font-size: 24px;
   }
-  /* line 272, sass/styles.sass */
+  /* line 271, sass/styles.sass */
   .contact .data {
     display: inline-block;
   }
-  /* line 275, sass/styles.sass */
+  /* line 274, sass/styles.sass */
   .contact .name {
     width: 140px;
     float: left;
     font-weight: bold;
   }
-  /* line 279, sass/styles.sass */
+  /* line 278, sass/styles.sass */
   .contact .vk {
     float: right;
-    padding-right: 36px;
   }
-  /* line 282, sass/styles.sass */
+  /* line 280, sass/styles.sass */
   .contact .vk > a {
     display: inline-block;
     background: url("images/vk.png") top left no-repeat;
@@ -735,19 +731,19 @@ a {
     height: 15.456px;
   }
 
-  /* line 286, sass/styles.sass */
+  /* line 284, sass/styles.sass */
   .halfbr {
     margin-top: 7.2px;
   }
 
-  /* line 289, sass/styles.sass */
+  /* line 287, sass/styles.sass */
   ul {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
 
-  /* line 294, sass/styles.sass */
+  /* line 292, sass/styles.sass */
   li {
     display: block;
     float: left;
@@ -755,14 +751,14 @@ a {
     cursor: pointer;
   }
 
-  /* line 300, sass/styles.sass */
+  /* line 298, sass/styles.sass */
   img {
     display: block;
     height: auto;
     max-width: 100%;
   }
 
-  /* line 305, sass/styles.sass */
+  /* line 303, sass/styles.sass */
   .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -772,7 +768,7 @@ a {
     background-position: 0 0;
   }
 
-  /* line 309, sass/styles.sass */
+  /* line 307, sass/styles.sass */
   .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -782,19 +778,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 313, sass/styles.sass */
+  /* line 311, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 316, sass/styles.sass */
+  /* line 314, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 27.6px;
     position: relative;
   }
-  /* line 320, sass/styles.sass */
+  /* line 318, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -842,7 +838,7 @@ a {
   .container {
     position: relative;
     margin: 0 auto;
-    width: 550px;
+    width: 500px;
     padding-bottom: 25px;
   }
 
@@ -880,72 +876,72 @@ a {
     background: url("images/back.jpg");
     background-size: 552.3px 493.5px;
     opacity: 0.95;
-    width: 470px;
+    width: 420px;
     display: inline-block;
     height: 100%;
   }
 
-  /* line 148, sass/styles.sass */
+  /* line 140, sass/styles.sass */
   .jumbo {
     text-align: center;
     position: relative;
     margin: 15px auto 0 auto;
-    padding: 0 40px;
+    padding: 0 0px;
   }
-  /* line 153, sass/styles.sass */
+  /* line 145, sass/styles.sass */
   .jumbo.title {
-    margin: 7px 0 7px 0;
+    margin: 7px 0 14px 0;
     font-style: italic;
     font-size: 30px;
   }
-  /* line 157, sass/styles.sass */
+  /* line 149, sass/styles.sass */
   .jumbo.w1 {
-    width: 297.3px;
+    width: 377.3px;
     height: 159.8px;
     margin-top: 0;
     padding-top: 53px;
   }
-  /* line 162, sass/styles.sass */
+  /* line 155, sass/styles.sass */
   .jumbo.w1 > .bg {
     background: url("images/watermark-1.png") top left no-repeat;
     background-size: 377.3px 212.8px;
     opacity: 0.5;
   }
-  /* line 165, sass/styles.sass */
+  /* line 158, sass/styles.sass */
   .jumbo.w1 .label {
     font-style: italic;
     font-size: 40px;
     font-weight: bold;
     line-height: 60px;
   }
-  /* line 170, sass/styles.sass */
+  /* line 163, sass/styles.sass */
   .jumbo.w2 {
-    width: 340px;
+    width: 360px;
     height: 468.1px;
-    padding-top: 38px;
+    padding: 38px 30px 0 30px;
     margin-top: 50px;
   }
-  /* line 175, sass/styles.sass */
+  /* line 170, sass/styles.sass */
   .jumbo.w2 > .bg {
     background: url("images/watermark-2.png") top left no-repeat;
     background-size: 420px 506.1px;
     opacity: 0.5;
   }
-  /* line 178, sass/styles.sass */
+  /* line 173, sass/styles.sass */
   .jumbo.w3 {
-    width: 240px;
+    width: 250px;
     height: 109.9px;
-    padding-left: 150px;
+    padding-left: 140px;
     padding-top: 35px;
     padding-right: 30px;
   }
-  /* line 184, sass/styles.sass */
+  /* line 182, sass/styles.sass */
   .jumbo.w3 > .bg {
     background: url("images/watermark-3.png") top left no-repeat;
     background-size: 434.7px 144.9px;
     opacity: 0.5;
   }
-  /* line 187, sass/styles.sass */
+  /* line 185, sass/styles.sass */
   .jumbo.w4 {
     width: 322.4px;
     height: 170.8px;
@@ -1001,12 +997,12 @@ a {
   /* line 216, sass/styles.sass */
   .flower-3 {
     background: url("images/flower-3.png") top left no-repeat;
-    background-size: 113.4px 91.7px;
-    width: 113.4px;
-    height: 91.7px;
+    background-size: 102.06px 82.53px;
+    width: 102.06px;
+    height: 82.53px;
     position: absolute;
-    top: 27px;
-    left: 30px;
+    top: 33px;
+    left: 33px;
   }
 
   /* line 221, sass/styles.sass */
@@ -1035,7 +1031,7 @@ a {
 
   /* line 236, sass/styles.sass */
   .title {
-    margin-top: 10px;
+    margin: 10px auto 7px auto;
     font-size: 25px;
     font-weight: bold;
   }
@@ -1048,8 +1044,8 @@ a {
 
   /* line 245, sass/styles.sass */
   .dot {
-    height: 40px;
-    width: 40px;
+    height: 35px;
+    width: 35px;
     background-color: #bbb;
     border-radius: 50%;
     display: inline-block;
@@ -1083,27 +1079,25 @@ a {
   .contact {
     /* width: (350px * $r) */
     margin: 0 auto;
-    padding-left: 20px;
     line-height: 40px;
     height: 40px;
     font-size: 20px;
   }
-  /* line 272, sass/styles.sass */
+  /* line 271, sass/styles.sass */
   .contact .data {
     display: inline-block;
   }
-  /* line 275, sass/styles.sass */
+  /* line 274, sass/styles.sass */
   .contact .name {
     width: 140px;
     float: left;
     font-weight: bold;
   }
-  /* line 279, sass/styles.sass */
+  /* line 278, sass/styles.sass */
   .contact .vk {
     float: right;
-    padding-right: 30px;
   }
-  /* line 282, sass/styles.sass */
+  /* line 280, sass/styles.sass */
   .contact .vk > a {
     display: inline-block;
     background: url("images/vk.png") top left no-repeat;
@@ -1112,19 +1106,19 @@ a {
     height: 12.88px;
   }
 
-  /* line 286, sass/styles.sass */
+  /* line 284, sass/styles.sass */
   .halfbr {
     margin-top: 6px;
   }
 
-  /* line 289, sass/styles.sass */
+  /* line 287, sass/styles.sass */
   ul {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
 
-  /* line 294, sass/styles.sass */
+  /* line 292, sass/styles.sass */
   li {
     display: block;
     float: left;
@@ -1132,14 +1126,14 @@ a {
     cursor: pointer;
   }
 
-  /* line 300, sass/styles.sass */
+  /* line 298, sass/styles.sass */
   img {
     display: block;
     height: auto;
     max-width: 100%;
   }
 
-  /* line 305, sass/styles.sass */
+  /* line 303, sass/styles.sass */
   .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1149,7 +1143,7 @@ a {
     background-position: 0 0;
   }
 
-  /* line 309, sass/styles.sass */
+  /* line 307, sass/styles.sass */
   .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1159,19 +1153,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 313, sass/styles.sass */
+  /* line 311, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 316, sass/styles.sass */
+  /* line 314, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 23px;
     position: relative;
   }
-  /* line 320, sass/styles.sass */
+  /* line 318, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;

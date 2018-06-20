@@ -13,7 +13,9 @@ $i_back:       "images/back.jpg"
 $i_al:         "images/arrow-l.png"
 $i_ar:         "images/arrow-r.png"
 $i_geo:        "images/geo.png"
-$i_vk: "images/vk.png"
+$i_vk:         "images/vk.png"
+$i_frame:      "images/frame.png"
+
 $font_size: 18px
 
 
@@ -284,30 +286,39 @@ a
   .halfbr
     margin-top: (6px * $r)
 
-  ul
+  ul.photoes
+    $photo_width: 300px
+    $photo_height: $photo_width / 1.5
     list-style: none outside none
     padding-left: 0
     margin-bottom: 0
+    li
+      display: block
+      position: relative
+      cursor: pointer
+      text-align: center
+      .bg
+        +imgc($i_frame, $photo_width, $photo_height, $r)
+        left: (58px * $r * $photo_width/300px)
+        z-index: 1
+    img
+      width: ($photo_width * $r)
+      height: ($photo_height * $r)
+      max-width: 100%
 
-  li
-    display: block
-    float: left
-    margin-right: (6px * $r)
-    cursor: pointer
+  .photo-container
+    .lSSlideOuter .lSPager.lSGallery img
+      width: 135px
+      height: 90px
+    .lSAction>.lSPrev
+      +imgf($i_al, $r)
+      left: 0
+      background-position: 0 0
+    .lSAction>.lSNext
+      +imgf($i_ar, $r)
+      right: 0
+      background-position: 0 0
 
-  img
-    display: block
-    height: auto
-    max-width: 100%
-
-  .lSAction>.lSPrev
-    +imgf($i_al, $r)
-    left: 0
-    background-position: 0 0
-  .lSAction>.lSNext
-    +imgf($i_ar, $r)
-    right: 0
-    background-position: 0 0
   .katya-text
     text-align: center
     padding: 0 (5px * $r)

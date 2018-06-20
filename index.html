@@ -141,44 +141,34 @@
             <div class="halfbr">  Сейчас здесь представлены фотографии интерьеров Дворца Бракосочетаний&nbsp;№&nbsp;2 и 
               Оранжереи Таврического сада. </div>
 
-          <ul id="lightSlider">
+          <div class="photo-container">
+          <ul class="photoes">
               <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-1.jpg">
+                <div class="bg"></div>
                 <img src="http://sachinchoolur.github.io/lightslider/img/cS-1.jpg" />
               </li>
               <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-2.jpg">
+                <div class="bg"></div>
                 <img src="http://sachinchoolur.github.io/lightslider/img/cS-2.jpg" />
               </li>
               <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-3.jpg">
+                <div class="bg"></div>
                 <img src="http://sachinchoolur.github.io/lightslider/img/cS-3.jpg" />
               </li>
               <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-4.jpg">
+                <div class="bg"></div>
                 <img src="http://sachinchoolur.github.io/lightslider/img/cS-4.jpg" />
               </li>
               <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-5.jpg">
+                <div class="bg"></div>
                 <img src="http://sachinchoolur.github.io/lightslider/img/cS-5.jpg" />
               </li>
               <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-6.jpg">
+                <div class="bg"></div>
                 <img src="http://sachinchoolur.github.io/lightslider/img/cS-6.jpg" />
               </li>
-              <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-7.jpg">
-                <img src="http://sachinchoolur.github.io/lightslider/img/cS-7.jpg" />
-              </li>
-              <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-8.jpg">
-                <img src="http://sachinchoolur.github.io/lightslider/img/cS-8.jpg" />
-              </li>
-              <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-9.jpg">
-                <img src="http://sachinchoolur.github.io/lightslider/img/cS-9.jpg" />
-              </li>
-              <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-10.jpg">
-                <img src="http://sachinchoolur.github.io/lightslider/img/cS-10.jpg" />
-              </li>
-              <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-11.jpg">
-                <img src="http://sachinchoolur.github.io/lightslider/img/cS-12.jpg" />
-              </li>
-              <li data-thumb="http://sachinchoolur.github.io/lightslider/img/thumb/cS-13.jpg">
-                <img src="http://sachinchoolur.github.io/lightslider/img/cS-13.jpg" />
-              </li>
           </ul>
+          </div>
         </div>
 
 
@@ -199,7 +189,7 @@
             +7 (981) 841-17-41
           </div>
           <div class="vk">
-            <a href="https://vk.com/georgeee"></a>
+            <a target="_blank" href="https://vk.com/georgeee"></a>
           </div>
         </div>
         <div class="contact">
@@ -208,7 +198,7 @@
             +7 (905) 270-60-54
           </div>
           <div class="vk">
-            <a href="https://vk.com/katu_bu"></a>
+            <a target="_blank" href="https://vk.com/katu_bu"></a>
           </div>
         </div>
         <div class="jumbo w4">
@@ -248,12 +238,13 @@
     </div>
     <script type="text/javascript">
       $(document).ready(function() {
-        $('#lightSlider').lightSlider({
+        $('.photoes').lightSlider({
               gallery: true,
               item: 1,
               loop: true,
+              mode: 'fade',
               slideMargin: 0,
-              thumbItem: 9
+              thumbItem: 3
         });
       });
     </script>

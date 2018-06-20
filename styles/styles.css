@@ -1,11 +1,11 @@
-/* line 41, sass/styles.sass */
+/* line 43, sass/styles.sass */
 body {
   margin: 0;
   overflow-x: hidden;
   font-family: "Courier New", monoscape;
 }
 
-/* line 45, sass/styles.sass */
+/* line 47, sass/styles.sass */
 .btn-container {
   text-align: center;
   position: fixed;
@@ -15,7 +15,7 @@ body {
   z-index: 3;
 }
 
-/* line 52, sass/styles.sass */
+/* line 54, sass/styles.sass */
 .sidebar {
   height: 100%;
   position: absolute;
@@ -23,24 +23,24 @@ body {
   bottom: 0;
 }
 
-/* line 58, sass/styles.sass */
+/* line 60, sass/styles.sass */
 .label {
   text-align: center;
 }
-/* line 60, sass/styles.sass */
+/* line 62, sass/styles.sass */
 .label a {
   width: 100%;
   height: 100%;
   display: block;
 }
 
-/* line 65, sass/styles.sass */
+/* line 67, sass/styles.sass */
 a {
   color: black;
   text-decoration: none;
 }
 
-/* line 69, sass/styles.sass */
+/* line 71, sass/styles.sass */
 .bg {
   position: absolute;
   top: 0;
@@ -51,14 +51,14 @@ a {
 }
 
 @media only screen and (min-width: 1300px) {
-  /* line 80, sass/styles.sass */
+  /* line 82, sass/styles.sass */
   body {
     background: url("images/back.jpg");
     background-size: 773.22px 690.9px;
     font-size: 25.2px;
   }
 
-  /* line 85, sass/styles.sass */
+  /* line 87, sass/styles.sass */
   .sidebar-l {
     background: url("images/leaves-l.png") top right no-repeat;
     left: -298.9px;
@@ -66,7 +66,7 @@ a {
     background-size: 298.9px 3689.7px;
   }
 
-  /* line 91, sass/styles.sass */
+  /* line 93, sass/styles.sass */
   .sidebar-r {
     background: url("images/leaves-r.png") top left no-repeat;
     right: -315.56px;
@@ -74,7 +74,7 @@ a {
     background-size: 315.56px 3687.74px;
   }
 
-  /* line 97, sass/styles.sass */
+  /* line 99, sass/styles.sass */
   .center {
     border: 2.8px #98978b;
     border-style: hidden solid solid solid;
@@ -84,7 +84,7 @@ a {
     padding-top: 84px;
   }
 
-  /* line 105, sass/styles.sass */
+  /* line 107, sass/styles.sass */
   .container {
     position: relative;
     margin: 0 auto;
@@ -92,7 +92,7 @@ a {
     padding-bottom: 35px;
   }
 
-  /* line 111, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   .btn {
     width: 193.06px;
     height: 65.66px;
@@ -100,28 +100,28 @@ a {
     display: inline-block;
     padding: 0 2.8px;
   }
-  /* line 117, sass/styles.sass */
+  /* line 119, sass/styles.sass */
   .btn .bg {
     background: url("images/btn.png") no-repeat;
     background-size: 193.06px 65.66px;
     opacity: 0.5;
   }
-  /* line 121, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   .btn:hover .bg {
     opacity: 1;
   }
-  /* line 123, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   .btn .label {
     font-weight: bold;
     line-height: 65.66px;
     font-size: 21px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   .btn-container {
     height: 68.46px;
   }
-  /* line 131, sass/styles.sass */
+  /* line 133, sass/styles.sass */
   .btn-container > .bg > * {
     background: url("images/back.jpg");
     background-size: 773.22px 690.9px;
@@ -131,53 +131,53 @@ a {
     height: 100%;
   }
 
-  /* line 140, sass/styles.sass */
+  /* line 142, sass/styles.sass */
   .jumbo {
     text-align: center;
     position: relative;
     margin: 21px auto 0 auto;
     padding: 0 0px;
   }
-  /* line 145, sass/styles.sass */
+  /* line 147, sass/styles.sass */
   .jumbo.title {
     margin: 9.8px 0 19.6px 0;
     font-style: italic;
     font-size: 42px;
   }
-  /* line 149, sass/styles.sass */
+  /* line 151, sass/styles.sass */
   .jumbo.w1 {
     width: 528.22px;
     height: 223.72px;
     margin-top: 0;
     padding-top: 74.2px;
   }
-  /* line 155, sass/styles.sass */
+  /* line 157, sass/styles.sass */
   .jumbo.w1 > .bg {
     background: url("images/watermark-1.png") top left no-repeat;
     background-size: 528.22px 297.92px;
     opacity: 0.5;
   }
-  /* line 158, sass/styles.sass */
+  /* line 160, sass/styles.sass */
   .jumbo.w1 .label {
     font-style: italic;
     font-size: 56px;
     font-weight: bold;
     line-height: 84px;
   }
-  /* line 163, sass/styles.sass */
+  /* line 165, sass/styles.sass */
   .jumbo.w2 {
     width: 504px;
     height: 655.34px;
     padding: 53.2px 42px 0 42px;
     margin-top: 70px;
   }
-  /* line 170, sass/styles.sass */
+  /* line 172, sass/styles.sass */
   .jumbo.w2 > .bg {
     background: url("images/watermark-2.png") top left no-repeat;
     background-size: 588px 708.54px;
     opacity: 0.5;
   }
-  /* line 173, sass/styles.sass */
+  /* line 175, sass/styles.sass */
   .jumbo.w3 {
     width: 350px;
     height: 153.86px;
@@ -185,48 +185,48 @@ a {
     padding-top: 49px;
     padding-right: 42px;
   }
-  /* line 182, sass/styles.sass */
+  /* line 184, sass/styles.sass */
   .jumbo.w3 > .bg {
     background: url("images/watermark-3.png") top left no-repeat;
     background-size: 608.58px 202.86px;
     opacity: 0.5;
   }
-  /* line 185, sass/styles.sass */
+  /* line 187, sass/styles.sass */
   .jumbo.w4 {
     width: 451.36px;
     height: 239.12px;
     padding-left: 28px;
     padding-right: 140px;
   }
-  /* line 192, sass/styles.sass */
+  /* line 194, sass/styles.sass */
   .jumbo.w4 > .bg {
     background: url("images/watermark-4.png") top left no-repeat;
     background-size: 619.36px 239.12px;
     opacity: 0.5;
   }
-  /* line 195, sass/styles.sass */
+  /* line 197, sass/styles.sass */
   .jumbo.w4 .label {
     font-size: 44.8px;
     font-weight: bold;
     line-height: 42px;
     padding: 100.8px 0;
   }
-  /* line 200, sass/styles.sass */
+  /* line 202, sass/styles.sass */
   .jumbo.w5 {
     margin-top: 70px;
   }
 
-  /* line 204, sass/styles.sass */
+  /* line 206, sass/styles.sass */
   .purple {
     color: purple;
   }
 
-  /* line 207, sass/styles.sass */
+  /* line 209, sass/styles.sass */
   .green {
     color: green;
   }
 
-  /* line 210, sass/styles.sass */
+  /* line 212, sass/styles.sass */
   .flower-1 {
     background: url("images/flower-1.png") top left no-repeat;
     background-size: 163.66px 99.96px;
@@ -235,7 +235,7 @@ a {
     margin: 14px auto;
   }
 
-  /* line 213, sass/styles.sass */
+  /* line 215, sass/styles.sass */
   .flower-2 {
     background: url("images/flower-2.png") top left no-repeat;
     background-size: 99.96px 84.28px;
@@ -244,7 +244,7 @@ a {
     margin: 14px auto;
   }
 
-  /* line 216, sass/styles.sass */
+  /* line 218, sass/styles.sass */
   .flower-3 {
     background: url("images/flower-3.png") top left no-repeat;
     background-size: 142.884px 115.542px;
@@ -255,7 +255,7 @@ a {
     left: 46.2px;
   }
 
-  /* line 221, sass/styles.sass */
+  /* line 223, sass/styles.sass */
   .flower-4 {
     background: url("images/flower-4.png") top left no-repeat;
     background-size: 154.84px 172.48px;
@@ -266,33 +266,33 @@ a {
     right: 56px;
   }
 
-  /* line 227, sass/styles.sass */
+  /* line 229, sass/styles.sass */
   .emph {
     font-size: 28px;
     font-weight: bold;
   }
 
-  /* line 231, sass/styles.sass */
+  /* line 233, sass/styles.sass */
   .date-title {
     font-size: 63px;
     font-weight: bold;
     font-style: italic;
   }
 
-  /* line 236, sass/styles.sass */
+  /* line 238, sass/styles.sass */
   .title {
     margin: 14px auto 9.8px auto;
     font-size: 35px;
     font-weight: bold;
   }
 
-  /* line 241, sass/styles.sass */
+  /* line 243, sass/styles.sass */
   .dots {
     margin: 14px 0;
     text-align: center;
   }
 
-  /* line 245, sass/styles.sass */
+  /* line 247, sass/styles.sass */
   .dot {
     height: 49px;
     width: 49px;
@@ -300,32 +300,32 @@ a {
     border-radius: 50%;
     display: inline-block;
   }
-  /* line 251, sass/styles.sass */
+  /* line 253, sass/styles.sass */
   .dot.c1 {
     background-color: #780070;
   }
-  /* line 253, sass/styles.sass */
+  /* line 255, sass/styles.sass */
   .dot.c2 {
     background-color: #d64498;
   }
-  /* line 255, sass/styles.sass */
+  /* line 257, sass/styles.sass */
   .dot.c3 {
     background-color: #f7769b;
   }
-  /* line 257, sass/styles.sass */
+  /* line 259, sass/styles.sass */
   .dot.c4 {
     background-color: #e395c0;
   }
-  /* line 259, sass/styles.sass */
+  /* line 261, sass/styles.sass */
   .dot.c5 {
     background-color: #ffb0c0;
   }
-  /* line 261, sass/styles.sass */
+  /* line 263, sass/styles.sass */
   .dot.c6 {
     background-color: #fae6d9;
   }
 
-  /* line 265, sass/styles.sass */
+  /* line 267, sass/styles.sass */
   .contact {
     /* width: (350px * $r) */
     margin: 0 auto;
@@ -333,21 +333,21 @@ a {
     height: 56px;
     font-size: 28px;
   }
-  /* line 271, sass/styles.sass */
+  /* line 273, sass/styles.sass */
   .contact .data {
     display: inline-block;
   }
-  /* line 274, sass/styles.sass */
+  /* line 276, sass/styles.sass */
   .contact .name {
     width: 196px;
     float: left;
     font-weight: bold;
   }
-  /* line 278, sass/styles.sass */
+  /* line 280, sass/styles.sass */
   .contact .vk {
     float: right;
   }
-  /* line 280, sass/styles.sass */
+  /* line 282, sass/styles.sass */
   .contact .vk > a {
     display: inline-block;
     background: url("images/vk.png") top left no-repeat;
@@ -356,35 +356,47 @@ a {
     height: 18.032px;
   }
 
-  /* line 284, sass/styles.sass */
+  /* line 286, sass/styles.sass */
   .halfbr {
     margin-top: 8.4px;
   }
 
-  /* line 287, sass/styles.sass */
-  ul {
+  /* line 289, sass/styles.sass */
+  ul.photoes {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-
-  /* line 292, sass/styles.sass */
-  li {
+  /* line 295, sass/styles.sass */
+  ul.photoes li {
     display: block;
-    float: left;
-    margin-right: 8.4px;
+    position: relative;
     cursor: pointer;
+    text-align: center;
   }
-
-  /* line 298, sass/styles.sass */
-  img {
-    display: block;
-    height: auto;
+  /* line 300, sass/styles.sass */
+  ul.photoes li .bg {
+    background: url("images/frame.png") top left no-repeat;
+    background-size: 420px 280px;
+    width: 420px;
+    height: 280px;
+    left: 81.2px;
+    z-index: 1;
+  }
+  /* line 304, sass/styles.sass */
+  ul.photoes img {
+    width: 420px;
+    height: 280px;
     max-width: 100%;
   }
 
-  /* line 303, sass/styles.sass */
-  .lSAction > .lSPrev {
+  /* line 310, sass/styles.sass */
+  .photo-container .lSSlideOuter .lSPager.lSGallery img {
+    width: 135px;
+    height: 90px;
+  }
+  /* line 313, sass/styles.sass */
+  .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 67.62px 58.8px;
     width: 67.62px;
@@ -392,9 +404,8 @@ a {
     left: 0;
     background-position: 0 0;
   }
-
-  /* line 307, sass/styles.sass */
-  .lSAction > .lSNext {
+  /* line 317, sass/styles.sass */
+  .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 67.62px 58.8px;
     width: 67.62px;
@@ -403,19 +414,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 311, sass/styles.sass */
+  /* line 322, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 7px;
   }
 
-  /* line 314, sass/styles.sass */
+  /* line 325, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 32.2px;
     position: relative;
   }
-  /* line 318, sass/styles.sass */
+  /* line 329, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -426,14 +437,14 @@ a {
   }
 }
 @media only screen and (min-width: 1100px) and (max-width: 1299px) {
-  /* line 80, sass/styles.sass */
+  /* line 82, sass/styles.sass */
   body {
     background: url("images/back.jpg");
     background-size: 662.76px 592.2px;
     font-size: 21.6px;
   }
 
-  /* line 85, sass/styles.sass */
+  /* line 87, sass/styles.sass */
   .sidebar-l {
     background: url("images/leaves-l.png") top right no-repeat;
     left: -256.2px;
@@ -441,7 +452,7 @@ a {
     background-size: 256.2px 3162.6px;
   }
 
-  /* line 91, sass/styles.sass */
+  /* line 93, sass/styles.sass */
   .sidebar-r {
     background: url("images/leaves-r.png") top left no-repeat;
     right: -270.48px;
@@ -449,7 +460,7 @@ a {
     background-size: 270.48px 3160.92px;
   }
 
-  /* line 97, sass/styles.sass */
+  /* line 99, sass/styles.sass */
   .center {
     border: 2.4px #98978b;
     border-style: hidden solid solid solid;
@@ -459,7 +470,7 @@ a {
     padding-top: 72px;
   }
 
-  /* line 105, sass/styles.sass */
+  /* line 107, sass/styles.sass */
   .container {
     position: relative;
     margin: 0 auto;
@@ -467,7 +478,7 @@ a {
     padding-bottom: 30px;
   }
 
-  /* line 111, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   .btn {
     width: 165.48px;
     height: 56.28px;
@@ -475,28 +486,28 @@ a {
     display: inline-block;
     padding: 0 2.4px;
   }
-  /* line 117, sass/styles.sass */
+  /* line 119, sass/styles.sass */
   .btn .bg {
     background: url("images/btn.png") no-repeat;
     background-size: 165.48px 56.28px;
     opacity: 0.5;
   }
-  /* line 121, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   .btn:hover .bg {
     opacity: 1;
   }
-  /* line 123, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   .btn .label {
     font-weight: bold;
     line-height: 56.28px;
     font-size: 18px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   .btn-container {
     height: 58.68px;
   }
-  /* line 131, sass/styles.sass */
+  /* line 133, sass/styles.sass */
   .btn-container > .bg > * {
     background: url("images/back.jpg");
     background-size: 662.76px 592.2px;
@@ -506,53 +517,53 @@ a {
     height: 100%;
   }
 
-  /* line 140, sass/styles.sass */
+  /* line 142, sass/styles.sass */
   .jumbo {
     text-align: center;
     position: relative;
     margin: 18px auto 0 auto;
     padding: 0 0px;
   }
-  /* line 145, sass/styles.sass */
+  /* line 147, sass/styles.sass */
   .jumbo.title {
     margin: 8.4px 0 16.8px 0;
     font-style: italic;
     font-size: 36px;
   }
-  /* line 149, sass/styles.sass */
+  /* line 151, sass/styles.sass */
   .jumbo.w1 {
     width: 452.76px;
     height: 191.76px;
     margin-top: 0;
     padding-top: 63.6px;
   }
-  /* line 155, sass/styles.sass */
+  /* line 157, sass/styles.sass */
   .jumbo.w1 > .bg {
     background: url("images/watermark-1.png") top left no-repeat;
     background-size: 452.76px 255.36px;
     opacity: 0.5;
   }
-  /* line 158, sass/styles.sass */
+  /* line 160, sass/styles.sass */
   .jumbo.w1 .label {
     font-style: italic;
     font-size: 48px;
     font-weight: bold;
     line-height: 72px;
   }
-  /* line 163, sass/styles.sass */
+  /* line 165, sass/styles.sass */
   .jumbo.w2 {
     width: 432px;
     height: 561.72px;
     padding: 45.6px 36px 0 36px;
     margin-top: 60px;
   }
-  /* line 170, sass/styles.sass */
+  /* line 172, sass/styles.sass */
   .jumbo.w2 > .bg {
     background: url("images/watermark-2.png") top left no-repeat;
     background-size: 504px 607.32px;
     opacity: 0.5;
   }
-  /* line 173, sass/styles.sass */
+  /* line 175, sass/styles.sass */
   .jumbo.w3 {
     width: 300px;
     height: 131.88px;
@@ -560,48 +571,48 @@ a {
     padding-top: 42px;
     padding-right: 36px;
   }
-  /* line 182, sass/styles.sass */
+  /* line 184, sass/styles.sass */
   .jumbo.w3 > .bg {
     background: url("images/watermark-3.png") top left no-repeat;
     background-size: 521.64px 173.88px;
     opacity: 0.5;
   }
-  /* line 185, sass/styles.sass */
+  /* line 187, sass/styles.sass */
   .jumbo.w4 {
     width: 386.88px;
     height: 204.96px;
     padding-left: 24px;
     padding-right: 120px;
   }
-  /* line 192, sass/styles.sass */
+  /* line 194, sass/styles.sass */
   .jumbo.w4 > .bg {
     background: url("images/watermark-4.png") top left no-repeat;
     background-size: 530.88px 204.96px;
     opacity: 0.5;
   }
-  /* line 195, sass/styles.sass */
+  /* line 197, sass/styles.sass */
   .jumbo.w4 .label {
     font-size: 38.4px;
     font-weight: bold;
     line-height: 36px;
     padding: 86.4px 0;
   }
-  /* line 200, sass/styles.sass */
+  /* line 202, sass/styles.sass */
   .jumbo.w5 {
     margin-top: 60px;
   }
 
-  /* line 204, sass/styles.sass */
+  /* line 206, sass/styles.sass */
   .purple {
     color: purple;
   }
 
-  /* line 207, sass/styles.sass */
+  /* line 209, sass/styles.sass */
   .green {
     color: green;
   }
 
-  /* line 210, sass/styles.sass */
+  /* line 212, sass/styles.sass */
   .flower-1 {
     background: url("images/flower-1.png") top left no-repeat;
     background-size: 140.28px 85.68px;
@@ -610,7 +621,7 @@ a {
     margin: 12px auto;
   }
 
-  /* line 213, sass/styles.sass */
+  /* line 215, sass/styles.sass */
   .flower-2 {
     background: url("images/flower-2.png") top left no-repeat;
     background-size: 85.68px 72.24px;
@@ -619,7 +630,7 @@ a {
     margin: 12px auto;
   }
 
-  /* line 216, sass/styles.sass */
+  /* line 218, sass/styles.sass */
   .flower-3 {
     background: url("images/flower-3.png") top left no-repeat;
     background-size: 122.472px 99.036px;
@@ -630,7 +641,7 @@ a {
     left: 39.6px;
   }
 
-  /* line 221, sass/styles.sass */
+  /* line 223, sass/styles.sass */
   .flower-4 {
     background: url("images/flower-4.png") top left no-repeat;
     background-size: 132.72px 147.84px;
@@ -641,33 +652,33 @@ a {
     right: 48px;
   }
 
-  /* line 227, sass/styles.sass */
+  /* line 229, sass/styles.sass */
   .emph {
     font-size: 24px;
     font-weight: bold;
   }
 
-  /* line 231, sass/styles.sass */
+  /* line 233, sass/styles.sass */
   .date-title {
     font-size: 54px;
     font-weight: bold;
     font-style: italic;
   }
 
-  /* line 236, sass/styles.sass */
+  /* line 238, sass/styles.sass */
   .title {
     margin: 12px auto 8.4px auto;
     font-size: 30px;
     font-weight: bold;
   }
 
-  /* line 241, sass/styles.sass */
+  /* line 243, sass/styles.sass */
   .dots {
     margin: 12px 0;
     text-align: center;
   }
 
-  /* line 245, sass/styles.sass */
+  /* line 247, sass/styles.sass */
   .dot {
     height: 42px;
     width: 42px;
@@ -675,32 +686,32 @@ a {
     border-radius: 50%;
     display: inline-block;
   }
-  /* line 251, sass/styles.sass */
+  /* line 253, sass/styles.sass */
   .dot.c1 {
     background-color: #780070;
   }
-  /* line 253, sass/styles.sass */
+  /* line 255, sass/styles.sass */
   .dot.c2 {
     background-color: #d64498;
   }
-  /* line 255, sass/styles.sass */
+  /* line 257, sass/styles.sass */
   .dot.c3 {
     background-color: #f7769b;
   }
-  /* line 257, sass/styles.sass */
+  /* line 259, sass/styles.sass */
   .dot.c4 {
     background-color: #e395c0;
   }
-  /* line 259, sass/styles.sass */
+  /* line 261, sass/styles.sass */
   .dot.c5 {
     background-color: #ffb0c0;
   }
-  /* line 261, sass/styles.sass */
+  /* line 263, sass/styles.sass */
   .dot.c6 {
     background-color: #fae6d9;
   }
 
-  /* line 265, sass/styles.sass */
+  /* line 267, sass/styles.sass */
   .contact {
     /* width: (350px * $r) */
     margin: 0 auto;
@@ -708,21 +719,21 @@ a {
     height: 48px;
     font-size: 24px;
   }
-  /* line 271, sass/styles.sass */
+  /* line 273, sass/styles.sass */
   .contact .data {
     display: inline-block;
   }
-  /* line 274, sass/styles.sass */
+  /* line 276, sass/styles.sass */
   .contact .name {
     width: 168px;
     float: left;
     font-weight: bold;
   }
-  /* line 278, sass/styles.sass */
+  /* line 280, sass/styles.sass */
   .contact .vk {
     float: right;
   }
-  /* line 280, sass/styles.sass */
+  /* line 282, sass/styles.sass */
   .contact .vk > a {
     display: inline-block;
     background: url("images/vk.png") top left no-repeat;
@@ -731,35 +742,47 @@ a {
     height: 15.456px;
   }
 
-  /* line 284, sass/styles.sass */
+  /* line 286, sass/styles.sass */
   .halfbr {
     margin-top: 7.2px;
   }
 
-  /* line 287, sass/styles.sass */
-  ul {
+  /* line 289, sass/styles.sass */
+  ul.photoes {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-
-  /* line 292, sass/styles.sass */
-  li {
+  /* line 295, sass/styles.sass */
+  ul.photoes li {
     display: block;
-    float: left;
-    margin-right: 7.2px;
+    position: relative;
     cursor: pointer;
+    text-align: center;
   }
-
-  /* line 298, sass/styles.sass */
-  img {
-    display: block;
-    height: auto;
+  /* line 300, sass/styles.sass */
+  ul.photoes li .bg {
+    background: url("images/frame.png") top left no-repeat;
+    background-size: 360px 240px;
+    width: 360px;
+    height: 240px;
+    left: 69.6px;
+    z-index: 1;
+  }
+  /* line 304, sass/styles.sass */
+  ul.photoes img {
+    width: 360px;
+    height: 240px;
     max-width: 100%;
   }
 
-  /* line 303, sass/styles.sass */
-  .lSAction > .lSPrev {
+  /* line 310, sass/styles.sass */
+  .photo-container .lSSlideOuter .lSPager.lSGallery img {
+    width: 135px;
+    height: 90px;
+  }
+  /* line 313, sass/styles.sass */
+  .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 57.96px 50.4px;
     width: 57.96px;
@@ -767,9 +790,8 @@ a {
     left: 0;
     background-position: 0 0;
   }
-
-  /* line 307, sass/styles.sass */
-  .lSAction > .lSNext {
+  /* line 317, sass/styles.sass */
+  .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 57.96px 50.4px;
     width: 57.96px;
@@ -778,19 +800,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 311, sass/styles.sass */
+  /* line 322, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 6px;
   }
 
-  /* line 314, sass/styles.sass */
+  /* line 325, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 27.6px;
     position: relative;
   }
-  /* line 318, sass/styles.sass */
+  /* line 329, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -801,14 +823,14 @@ a {
   }
 }
 @media only screen and (max-width: 1099px) {
-  /* line 80, sass/styles.sass */
+  /* line 82, sass/styles.sass */
   body {
     background: url("images/back.jpg");
     background-size: 552.3px 493.5px;
     font-size: 18px;
   }
 
-  /* line 85, sass/styles.sass */
+  /* line 87, sass/styles.sass */
   .sidebar-l {
     background: url("images/leaves-l.png") top right no-repeat;
     left: -213.5px;
@@ -816,7 +838,7 @@ a {
     background-size: 213.5px 2635.5px;
   }
 
-  /* line 91, sass/styles.sass */
+  /* line 93, sass/styles.sass */
   .sidebar-r {
     background: url("images/leaves-r.png") top left no-repeat;
     right: -225.4px;
@@ -824,7 +846,7 @@ a {
     background-size: 225.4px 2634.1px;
   }
 
-  /* line 97, sass/styles.sass */
+  /* line 99, sass/styles.sass */
   .center {
     border: 2px #98978b;
     border-style: hidden solid solid solid;
@@ -834,7 +856,7 @@ a {
     padding-top: 60px;
   }
 
-  /* line 105, sass/styles.sass */
+  /* line 107, sass/styles.sass */
   .container {
     position: relative;
     margin: 0 auto;
@@ -842,7 +864,7 @@ a {
     padding-bottom: 25px;
   }
 
-  /* line 111, sass/styles.sass */
+  /* line 113, sass/styles.sass */
   .btn {
     width: 137.9px;
     height: 46.9px;
@@ -850,28 +872,28 @@ a {
     display: inline-block;
     padding: 0 2px;
   }
-  /* line 117, sass/styles.sass */
+  /* line 119, sass/styles.sass */
   .btn .bg {
     background: url("images/btn.png") no-repeat;
     background-size: 137.9px 46.9px;
     opacity: 0.5;
   }
-  /* line 121, sass/styles.sass */
+  /* line 123, sass/styles.sass */
   .btn:hover .bg {
     opacity: 1;
   }
-  /* line 123, sass/styles.sass */
+  /* line 125, sass/styles.sass */
   .btn .label {
     font-weight: bold;
     line-height: 46.9px;
     font-size: 15px;
   }
 
-  /* line 129, sass/styles.sass */
+  /* line 131, sass/styles.sass */
   .btn-container {
     height: 48.9px;
   }
-  /* line 131, sass/styles.sass */
+  /* line 133, sass/styles.sass */
   .btn-container > .bg > * {
     background: url("images/back.jpg");
     background-size: 552.3px 493.5px;
@@ -881,53 +903,53 @@ a {
     height: 100%;
   }
 
-  /* line 140, sass/styles.sass */
+  /* line 142, sass/styles.sass */
   .jumbo {
     text-align: center;
     position: relative;
     margin: 15px auto 0 auto;
     padding: 0 0px;
   }
-  /* line 145, sass/styles.sass */
+  /* line 147, sass/styles.sass */
   .jumbo.title {
     margin: 7px 0 14px 0;
     font-style: italic;
     font-size: 30px;
   }
-  /* line 149, sass/styles.sass */
+  /* line 151, sass/styles.sass */
   .jumbo.w1 {
     width: 377.3px;
     height: 159.8px;
     margin-top: 0;
     padding-top: 53px;
   }
-  /* line 155, sass/styles.sass */
+  /* line 157, sass/styles.sass */
   .jumbo.w1 > .bg {
     background: url("images/watermark-1.png") top left no-repeat;
     background-size: 377.3px 212.8px;
     opacity: 0.5;
   }
-  /* line 158, sass/styles.sass */
+  /* line 160, sass/styles.sass */
   .jumbo.w1 .label {
     font-style: italic;
     font-size: 40px;
     font-weight: bold;
     line-height: 60px;
   }
-  /* line 163, sass/styles.sass */
+  /* line 165, sass/styles.sass */
   .jumbo.w2 {
     width: 360px;
     height: 468.1px;
     padding: 38px 30px 0 30px;
     margin-top: 50px;
   }
-  /* line 170, sass/styles.sass */
+  /* line 172, sass/styles.sass */
   .jumbo.w2 > .bg {
     background: url("images/watermark-2.png") top left no-repeat;
     background-size: 420px 506.1px;
     opacity: 0.5;
   }
-  /* line 173, sass/styles.sass */
+  /* line 175, sass/styles.sass */
   .jumbo.w3 {
     width: 250px;
     height: 109.9px;
@@ -935,48 +957,48 @@ a {
     padding-top: 35px;
     padding-right: 30px;
   }
-  /* line 182, sass/styles.sass */
+  /* line 184, sass/styles.sass */
   .jumbo.w3 > .bg {
     background: url("images/watermark-3.png") top left no-repeat;
     background-size: 434.7px 144.9px;
     opacity: 0.5;
   }
-  /* line 185, sass/styles.sass */
+  /* line 187, sass/styles.sass */
   .jumbo.w4 {
     width: 322.4px;
     height: 170.8px;
     padding-left: 20px;
     padding-right: 100px;
   }
-  /* line 192, sass/styles.sass */
+  /* line 194, sass/styles.sass */
   .jumbo.w4 > .bg {
     background: url("images/watermark-4.png") top left no-repeat;
     background-size: 442.4px 170.8px;
     opacity: 0.5;
   }
-  /* line 195, sass/styles.sass */
+  /* line 197, sass/styles.sass */
   .jumbo.w4 .label {
     font-size: 32px;
     font-weight: bold;
     line-height: 30px;
     padding: 72px 0;
   }
-  /* line 200, sass/styles.sass */
+  /* line 202, sass/styles.sass */
   .jumbo.w5 {
     margin-top: 50px;
   }
 
-  /* line 204, sass/styles.sass */
+  /* line 206, sass/styles.sass */
   .purple {
     color: purple;
   }
 
-  /* line 207, sass/styles.sass */
+  /* line 209, sass/styles.sass */
   .green {
     color: green;
   }
 
-  /* line 210, sass/styles.sass */
+  /* line 212, sass/styles.sass */
   .flower-1 {
     background: url("images/flower-1.png") top left no-repeat;
     background-size: 116.9px 71.4px;
@@ -985,7 +1007,7 @@ a {
     margin: 10px auto;
   }
 
-  /* line 213, sass/styles.sass */
+  /* line 215, sass/styles.sass */
   .flower-2 {
     background: url("images/flower-2.png") top left no-repeat;
     background-size: 71.4px 60.2px;
@@ -994,7 +1016,7 @@ a {
     margin: 10px auto;
   }
 
-  /* line 216, sass/styles.sass */
+  /* line 218, sass/styles.sass */
   .flower-3 {
     background: url("images/flower-3.png") top left no-repeat;
     background-size: 102.06px 82.53px;
@@ -1005,7 +1027,7 @@ a {
     left: 33px;
   }
 
-  /* line 221, sass/styles.sass */
+  /* line 223, sass/styles.sass */
   .flower-4 {
     background: url("images/flower-4.png") top left no-repeat;
     background-size: 110.6px 123.2px;
@@ -1016,33 +1038,33 @@ a {
     right: 40px;
   }
 
-  /* line 227, sass/styles.sass */
+  /* line 229, sass/styles.sass */
   .emph {
     font-size: 20px;
     font-weight: bold;
   }
 
-  /* line 231, sass/styles.sass */
+  /* line 233, sass/styles.sass */
   .date-title {
     font-size: 45px;
     font-weight: bold;
     font-style: italic;
   }
 
-  /* line 236, sass/styles.sass */
+  /* line 238, sass/styles.sass */
   .title {
     margin: 10px auto 7px auto;
     font-size: 25px;
     font-weight: bold;
   }
 
-  /* line 241, sass/styles.sass */
+  /* line 243, sass/styles.sass */
   .dots {
     margin: 10px 0;
     text-align: center;
   }
 
-  /* line 245, sass/styles.sass */
+  /* line 247, sass/styles.sass */
   .dot {
     height: 35px;
     width: 35px;
@@ -1050,32 +1072,32 @@ a {
     border-radius: 50%;
     display: inline-block;
   }
-  /* line 251, sass/styles.sass */
+  /* line 253, sass/styles.sass */
   .dot.c1 {
     background-color: #780070;
   }
-  /* line 253, sass/styles.sass */
+  /* line 255, sass/styles.sass */
   .dot.c2 {
     background-color: #d64498;
   }
-  /* line 255, sass/styles.sass */
+  /* line 257, sass/styles.sass */
   .dot.c3 {
     background-color: #f7769b;
   }
-  /* line 257, sass/styles.sass */
+  /* line 259, sass/styles.sass */
   .dot.c4 {
     background-color: #e395c0;
   }
-  /* line 259, sass/styles.sass */
+  /* line 261, sass/styles.sass */
   .dot.c5 {
     background-color: #ffb0c0;
   }
-  /* line 261, sass/styles.sass */
+  /* line 263, sass/styles.sass */
   .dot.c6 {
     background-color: #fae6d9;
   }
 
-  /* line 265, sass/styles.sass */
+  /* line 267, sass/styles.sass */
   .contact {
     /* width: (350px * $r) */
     margin: 0 auto;
@@ -1083,21 +1105,21 @@ a {
     height: 40px;
     font-size: 20px;
   }
-  /* line 271, sass/styles.sass */
+  /* line 273, sass/styles.sass */
   .contact .data {
     display: inline-block;
   }
-  /* line 274, sass/styles.sass */
+  /* line 276, sass/styles.sass */
   .contact .name {
     width: 140px;
     float: left;
     font-weight: bold;
   }
-  /* line 278, sass/styles.sass */
+  /* line 280, sass/styles.sass */
   .contact .vk {
     float: right;
   }
-  /* line 280, sass/styles.sass */
+  /* line 282, sass/styles.sass */
   .contact .vk > a {
     display: inline-block;
     background: url("images/vk.png") top left no-repeat;
@@ -1106,35 +1128,47 @@ a {
     height: 12.88px;
   }
 
-  /* line 284, sass/styles.sass */
+  /* line 286, sass/styles.sass */
   .halfbr {
     margin-top: 6px;
   }
 
-  /* line 287, sass/styles.sass */
-  ul {
+  /* line 289, sass/styles.sass */
+  ul.photoes {
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-
-  /* line 292, sass/styles.sass */
-  li {
+  /* line 295, sass/styles.sass */
+  ul.photoes li {
     display: block;
-    float: left;
-    margin-right: 6px;
+    position: relative;
     cursor: pointer;
+    text-align: center;
   }
-
-  /* line 298, sass/styles.sass */
-  img {
-    display: block;
-    height: auto;
+  /* line 300, sass/styles.sass */
+  ul.photoes li .bg {
+    background: url("images/frame.png") top left no-repeat;
+    background-size: 300px 200px;
+    width: 300px;
+    height: 200px;
+    left: 58px;
+    z-index: 1;
+  }
+  /* line 304, sass/styles.sass */
+  ul.photoes img {
+    width: 300px;
+    height: 200px;
     max-width: 100%;
   }
 
-  /* line 303, sass/styles.sass */
-  .lSAction > .lSPrev {
+  /* line 310, sass/styles.sass */
+  .photo-container .lSSlideOuter .lSPager.lSGallery img {
+    width: 135px;
+    height: 90px;
+  }
+  /* line 313, sass/styles.sass */
+  .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 48.3px 42px;
     width: 48.3px;
@@ -1142,9 +1176,8 @@ a {
     left: 0;
     background-position: 0 0;
   }
-
-  /* line 307, sass/styles.sass */
-  .lSAction > .lSNext {
+  /* line 317, sass/styles.sass */
+  .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 48.3px 42px;
     width: 48.3px;
@@ -1153,19 +1186,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 311, sass/styles.sass */
+  /* line 322, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 314, sass/styles.sass */
+  /* line 325, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 23px;
     position: relative;
   }
-  /* line 318, sass/styles.sass */
+  /* line 329, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;

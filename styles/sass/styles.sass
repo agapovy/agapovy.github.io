@@ -294,17 +294,20 @@ a
     margin-bottom: 0
     li
       display: block
-      position: relative
       cursor: pointer
       text-align: center
-      .bg
-        +imgc($i_frame, $photo_width, $photo_height, $r)
-        left: (58px * $r * $photo_width/300px)
-        z-index: 1
-    img
-      width: ($photo_width * $r)
-      height: ($photo_height * $r)
-      max-width: 100%
+      .img
+        width: ($photo_width * $r)
+        height: ($photo_height * $r)
+        position: relative
+        display: inline-block
+        .bg
+          +imgc($i_frame, $photo_width, $photo_height, $r)
+          z-index: 1
+        img
+          $rwidth: $photo_width - 6px
+          width:  ($rwidth * $r)
+          height: ($rwidth / 1.5 * $r)
 
   .photo-container
     .lSSlideOuter .lSPager.lSGallery img

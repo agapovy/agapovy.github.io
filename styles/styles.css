@@ -361,56 +361,61 @@ a {
     margin-top: 8.4px;
   }
 
-  /* line 292, sass/styles.sass */
+  /* line 289, sass/styles.sass */
+  .photo-container {
+    width: 624.4px;
+    margin-left: -21px;
+  }
+  /* line 294, sass/styles.sass */
   .photo-container ul.photoes {
-    max-height: 280px;
+    max-height: 326.66667px;
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-  /* line 297, sass/styles.sass */
+  /* line 299, sass/styles.sass */
   .photo-container ul.photoes.lSliderOn li:not(:first-child) {
     display: block;
   }
-  /* line 299, sass/styles.sass */
+  /* line 301, sass/styles.sass */
   .photo-container ul.photoes li {
     cursor: pointer;
     text-align: center;
   }
-  /* line 302, sass/styles.sass */
+  /* line 304, sass/styles.sass */
   .photo-container ul.photoes li:first-child {
     display: block;
   }
-  /* line 304, sass/styles.sass */
+  /* line 306, sass/styles.sass */
   .photo-container ul.photoes li:not(:first-child) {
     display: none;
   }
-  /* line 306, sass/styles.sass */
+  /* line 308, sass/styles.sass */
   .photo-container ul.photoes li .img {
-    width: 420px;
-    height: 280px;
+    width: 490px;
+    height: 326.66667px;
     position: relative;
     display: inline-block;
   }
-  /* line 311, sass/styles.sass */
+  /* line 313, sass/styles.sass */
   .photo-container ul.photoes li .img .bg {
     background: url("images/frame.png") top left no-repeat;
-    background-size: 420px 280px;
-    width: 420px;
-    height: 280px;
+    background-size: 490px 326.66667px;
+    width: 490px;
+    height: 326.66667px;
     z-index: 1;
   }
-  /* line 314, sass/styles.sass */
+  /* line 316, sass/styles.sass */
   .photo-container ul.photoes li .img img {
-    width: 411.6px;
-    height: 274.4px;
+    width: 485.8px;
+    height: 323.86667px;
   }
-  /* line 319, sass/styles.sass */
+  /* line 321, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
-    width: 189px;
-    height: 126px;
+    width: 203px;
+    height: 135.33333px;
   }
-  /* line 322, sass/styles.sass */
+  /* line 325, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -419,7 +424,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 326, sass/styles.sass */
+  /* line 329, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -429,19 +434,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 331, sass/styles.sass */
+  /* line 334, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 7px;
   }
 
-  /* line 334, sass/styles.sass */
+  /* line 337, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 32.2px;
     position: relative;
   }
-  /* line 338, sass/styles.sass */
+  /* line 341, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -762,56 +767,61 @@ a {
     margin-top: 7.2px;
   }
 
-  /* line 292, sass/styles.sass */
+  /* line 289, sass/styles.sass */
+  .photo-container {
+    width: 535.2px;
+    margin-left: -18px;
+  }
+  /* line 294, sass/styles.sass */
   .photo-container ul.photoes {
-    max-height: 240px;
+    max-height: 280px;
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-  /* line 297, sass/styles.sass */
+  /* line 299, sass/styles.sass */
   .photo-container ul.photoes.lSliderOn li:not(:first-child) {
     display: block;
   }
-  /* line 299, sass/styles.sass */
+  /* line 301, sass/styles.sass */
   .photo-container ul.photoes li {
     cursor: pointer;
     text-align: center;
   }
-  /* line 302, sass/styles.sass */
+  /* line 304, sass/styles.sass */
   .photo-container ul.photoes li:first-child {
     display: block;
   }
-  /* line 304, sass/styles.sass */
+  /* line 306, sass/styles.sass */
   .photo-container ul.photoes li:not(:first-child) {
     display: none;
   }
-  /* line 306, sass/styles.sass */
+  /* line 308, sass/styles.sass */
   .photo-container ul.photoes li .img {
-    width: 360px;
-    height: 240px;
+    width: 420px;
+    height: 280px;
     position: relative;
     display: inline-block;
   }
-  /* line 311, sass/styles.sass */
+  /* line 313, sass/styles.sass */
   .photo-container ul.photoes li .img .bg {
     background: url("images/frame.png") top left no-repeat;
-    background-size: 360px 240px;
-    width: 360px;
-    height: 240px;
+    background-size: 420px 280px;
+    width: 420px;
+    height: 280px;
     z-index: 1;
   }
-  /* line 314, sass/styles.sass */
+  /* line 316, sass/styles.sass */
   .photo-container ul.photoes li .img img {
-    width: 352.8px;
-    height: 235.2px;
+    width: 416.4px;
+    height: 277.6px;
   }
-  /* line 319, sass/styles.sass */
+  /* line 321, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
-    width: 162px;
-    height: 108px;
+    width: 174px;
+    height: 116px;
   }
-  /* line 322, sass/styles.sass */
+  /* line 325, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -820,7 +830,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 326, sass/styles.sass */
+  /* line 329, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -830,19 +840,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 331, sass/styles.sass */
+  /* line 334, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 6px;
   }
 
-  /* line 334, sass/styles.sass */
+  /* line 337, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 27.6px;
     position: relative;
   }
-  /* line 338, sass/styles.sass */
+  /* line 341, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -1163,56 +1173,61 @@ a {
     margin-top: 6px;
   }
 
-  /* line 292, sass/styles.sass */
+  /* line 289, sass/styles.sass */
+  .photo-container {
+    width: 446px;
+    margin-left: -15px;
+  }
+  /* line 294, sass/styles.sass */
   .photo-container ul.photoes {
-    max-height: 200px;
+    max-height: 233.33333px;
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-  /* line 297, sass/styles.sass */
+  /* line 299, sass/styles.sass */
   .photo-container ul.photoes.lSliderOn li:not(:first-child) {
     display: block;
   }
-  /* line 299, sass/styles.sass */
+  /* line 301, sass/styles.sass */
   .photo-container ul.photoes li {
     cursor: pointer;
     text-align: center;
   }
-  /* line 302, sass/styles.sass */
+  /* line 304, sass/styles.sass */
   .photo-container ul.photoes li:first-child {
     display: block;
   }
-  /* line 304, sass/styles.sass */
+  /* line 306, sass/styles.sass */
   .photo-container ul.photoes li:not(:first-child) {
     display: none;
   }
-  /* line 306, sass/styles.sass */
+  /* line 308, sass/styles.sass */
   .photo-container ul.photoes li .img {
-    width: 300px;
-    height: 200px;
+    width: 350px;
+    height: 233.33333px;
     position: relative;
     display: inline-block;
   }
-  /* line 311, sass/styles.sass */
+  /* line 313, sass/styles.sass */
   .photo-container ul.photoes li .img .bg {
     background: url("images/frame.png") top left no-repeat;
-    background-size: 300px 200px;
-    width: 300px;
-    height: 200px;
+    background-size: 350px 233.33333px;
+    width: 350px;
+    height: 233.33333px;
     z-index: 1;
   }
-  /* line 314, sass/styles.sass */
+  /* line 316, sass/styles.sass */
   .photo-container ul.photoes li .img img {
-    width: 294px;
-    height: 196px;
+    width: 347px;
+    height: 231.33333px;
   }
-  /* line 319, sass/styles.sass */
+  /* line 321, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
-    width: 135px;
-    height: 90px;
+    width: 145px;
+    height: 96.66667px;
   }
-  /* line 322, sass/styles.sass */
+  /* line 325, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1221,7 +1236,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 326, sass/styles.sass */
+  /* line 329, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1231,19 +1246,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 331, sass/styles.sass */
+  /* line 334, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 334, sass/styles.sass */
+  /* line 337, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 23px;
     position: relative;
   }
-  /* line 338, sass/styles.sass */
+  /* line 341, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;

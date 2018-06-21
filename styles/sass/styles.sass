@@ -287,8 +287,10 @@ a
     margin-top: (6px * $r)
 
   .photo-container
-    $photo_width: 300px
+    $photo_width: 350px
     $photo_height: $photo_width / 1.5
+    width: $r * 446px
+    margin-left: $r * -15px
     ul.photoes
       max-height: $r * $photo_height
       list-style: none outside none
@@ -312,13 +314,14 @@ a
             +imgc($i_frame, $photo_width, $photo_height, $r)
             z-index: 1
           img
-            $rwidth: $photo_width - 6px
+            $rwidth: $photo_width - 3px
             width:  ($rwidth * $r)
             height: ($rwidth / 1.5 * $r)
 
     .lSSlideOuter .lSPager.lSGallery img
-      width: (135px * $r)
-      height: (90px * $r)
+      $iwidth: 145px * $r
+      width: $iwidth
+      height: $iwidth / 1.5
     .lSAction>.lSPrev
       +imgf($i_al, $r)
       left: 0

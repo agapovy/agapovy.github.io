@@ -411,11 +411,15 @@ a {
     height: 323.86667px;
   }
   /* line 321, sass/styles.sass */
+  .photo-container .lSSlideOuter .lSPager.lSpg {
+    display: none;
+  }
+  /* line 323, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
     width: 203px;
     height: 135.33333px;
   }
-  /* line 325, sass/styles.sass */
+  /* line 327, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -424,7 +428,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 329, sass/styles.sass */
+  /* line 331, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -434,19 +438,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 334, sass/styles.sass */
+  /* line 336, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 7px;
   }
 
-  /* line 337, sass/styles.sass */
+  /* line 339, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 32.2px;
     position: relative;
   }
-  /* line 341, sass/styles.sass */
+  /* line 343, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -817,11 +821,15 @@ a {
     height: 277.6px;
   }
   /* line 321, sass/styles.sass */
+  .photo-container .lSSlideOuter .lSPager.lSpg {
+    display: none;
+  }
+  /* line 323, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
     width: 174px;
     height: 116px;
   }
-  /* line 325, sass/styles.sass */
+  /* line 327, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -830,7 +838,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 329, sass/styles.sass */
+  /* line 331, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -840,19 +848,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 334, sass/styles.sass */
+  /* line 336, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 6px;
   }
 
-  /* line 337, sass/styles.sass */
+  /* line 339, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 27.6px;
     position: relative;
   }
-  /* line 341, sass/styles.sass */
+  /* line 343, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -1223,11 +1231,15 @@ a {
     height: 231.33333px;
   }
   /* line 321, sass/styles.sass */
+  .photo-container .lSSlideOuter .lSPager.lSpg {
+    display: none;
+  }
+  /* line 323, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
     width: 145px;
     height: 96.66667px;
   }
-  /* line 325, sass/styles.sass */
+  /* line 327, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1236,7 +1248,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 329, sass/styles.sass */
+  /* line 331, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1246,19 +1258,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 334, sass/styles.sass */
+  /* line 336, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 337, sass/styles.sass */
+  /* line 339, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 23px;
     position: relative;
   }
-  /* line 341, sass/styles.sass */
+  /* line 343, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;

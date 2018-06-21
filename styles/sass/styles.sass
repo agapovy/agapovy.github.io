@@ -286,33 +286,39 @@ a
   .halfbr
     margin-top: (6px * $r)
 
-  ul.photoes
+  .photo-container
     $photo_width: 300px
     $photo_height: $photo_width / 1.5
-    list-style: none outside none
-    padding-left: 0
-    margin-bottom: 0
-    li
-      display: block
-      cursor: pointer
-      text-align: center
-      .img
-        width: ($photo_width * $r)
-        height: ($photo_height * $r)
-        position: relative
-        display: inline-block
-        .bg
-          +imgc($i_frame, $photo_width, $photo_height, $r)
-          z-index: 1
-        img
-          $rwidth: $photo_width - 6px
-          width:  ($rwidth * $r)
-          height: ($rwidth / 1.5 * $r)
+    ul.photoes
+      max-height: $r * $photo_height
+      list-style: none outside none
+      padding-left: 0
+      margin-bottom: 0
+      &.lSliderOn li:not(:first-child)
+        display: block
+      li
+        cursor: pointer
+        text-align: center
+        &:first-child
+          display: block
+        &:not(:first-child)
+          display: none
+        .img
+          width: ($photo_width * $r)
+          height: ($photo_height * $r)
+          position: relative
+          display: inline-block
+          .bg
+            +imgc($i_frame, $photo_width, $photo_height, $r)
+            z-index: 1
+          img
+            $rwidth: $photo_width - 6px
+            width:  ($rwidth * $r)
+            height: ($rwidth / 1.5 * $r)
 
-  .photo-container
     .lSSlideOuter .lSPager.lSGallery img
-      width: 135px
-      height: 90px
+      width: (135px * $r)
+      height: (90px * $r)
     .lSAction>.lSPrev
       +imgf($i_al, $r)
       left: 0

@@ -361,45 +361,56 @@ a {
     margin-top: 8.4px;
   }
 
-  /* line 289, sass/styles.sass */
-  ul.photoes {
+  /* line 292, sass/styles.sass */
+  .photo-container ul.photoes {
+    max-height: 280px;
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-  /* line 295, sass/styles.sass */
-  ul.photoes li {
+  /* line 297, sass/styles.sass */
+  .photo-container ul.photoes.lSliderOn li:not(:first-child) {
     display: block;
+  }
+  /* line 299, sass/styles.sass */
+  .photo-container ul.photoes li {
     cursor: pointer;
     text-align: center;
   }
-  /* line 299, sass/styles.sass */
-  ul.photoes li .img {
+  /* line 302, sass/styles.sass */
+  .photo-container ul.photoes li:first-child {
+    display: block;
+  }
+  /* line 304, sass/styles.sass */
+  .photo-container ul.photoes li:not(:first-child) {
+    display: none;
+  }
+  /* line 306, sass/styles.sass */
+  .photo-container ul.photoes li .img {
     width: 420px;
     height: 280px;
     position: relative;
     display: inline-block;
   }
-  /* line 304, sass/styles.sass */
-  ul.photoes li .img .bg {
+  /* line 311, sass/styles.sass */
+  .photo-container ul.photoes li .img .bg {
     background: url("images/frame.png") top left no-repeat;
     background-size: 420px 280px;
     width: 420px;
     height: 280px;
     z-index: 1;
   }
-  /* line 307, sass/styles.sass */
-  ul.photoes li .img img {
+  /* line 314, sass/styles.sass */
+  .photo-container ul.photoes li .img img {
     width: 411.6px;
     height: 274.4px;
   }
-
-  /* line 313, sass/styles.sass */
+  /* line 319, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
-    width: 135px;
-    height: 90px;
+    width: 189px;
+    height: 126px;
   }
-  /* line 316, sass/styles.sass */
+  /* line 322, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -408,7 +419,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 320, sass/styles.sass */
+  /* line 326, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 67.62px 58.8px;
@@ -418,19 +429,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 325, sass/styles.sass */
+  /* line 331, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 7px;
   }
 
-  /* line 328, sass/styles.sass */
+  /* line 334, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 32.2px;
     position: relative;
   }
-  /* line 332, sass/styles.sass */
+  /* line 338, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -751,45 +762,56 @@ a {
     margin-top: 7.2px;
   }
 
-  /* line 289, sass/styles.sass */
-  ul.photoes {
+  /* line 292, sass/styles.sass */
+  .photo-container ul.photoes {
+    max-height: 240px;
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-  /* line 295, sass/styles.sass */
-  ul.photoes li {
+  /* line 297, sass/styles.sass */
+  .photo-container ul.photoes.lSliderOn li:not(:first-child) {
     display: block;
+  }
+  /* line 299, sass/styles.sass */
+  .photo-container ul.photoes li {
     cursor: pointer;
     text-align: center;
   }
-  /* line 299, sass/styles.sass */
-  ul.photoes li .img {
+  /* line 302, sass/styles.sass */
+  .photo-container ul.photoes li:first-child {
+    display: block;
+  }
+  /* line 304, sass/styles.sass */
+  .photo-container ul.photoes li:not(:first-child) {
+    display: none;
+  }
+  /* line 306, sass/styles.sass */
+  .photo-container ul.photoes li .img {
     width: 360px;
     height: 240px;
     position: relative;
     display: inline-block;
   }
-  /* line 304, sass/styles.sass */
-  ul.photoes li .img .bg {
+  /* line 311, sass/styles.sass */
+  .photo-container ul.photoes li .img .bg {
     background: url("images/frame.png") top left no-repeat;
     background-size: 360px 240px;
     width: 360px;
     height: 240px;
     z-index: 1;
   }
-  /* line 307, sass/styles.sass */
-  ul.photoes li .img img {
+  /* line 314, sass/styles.sass */
+  .photo-container ul.photoes li .img img {
     width: 352.8px;
     height: 235.2px;
   }
-
-  /* line 313, sass/styles.sass */
+  /* line 319, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
-    width: 135px;
-    height: 90px;
+    width: 162px;
+    height: 108px;
   }
-  /* line 316, sass/styles.sass */
+  /* line 322, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -798,7 +820,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 320, sass/styles.sass */
+  /* line 326, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 57.96px 50.4px;
@@ -808,19 +830,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 325, sass/styles.sass */
+  /* line 331, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 6px;
   }
 
-  /* line 328, sass/styles.sass */
+  /* line 334, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 27.6px;
     position: relative;
   }
-  /* line 332, sass/styles.sass */
+  /* line 338, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
@@ -1141,45 +1163,56 @@ a {
     margin-top: 6px;
   }
 
-  /* line 289, sass/styles.sass */
-  ul.photoes {
+  /* line 292, sass/styles.sass */
+  .photo-container ul.photoes {
+    max-height: 200px;
     list-style: none outside none;
     padding-left: 0;
     margin-bottom: 0;
   }
-  /* line 295, sass/styles.sass */
-  ul.photoes li {
+  /* line 297, sass/styles.sass */
+  .photo-container ul.photoes.lSliderOn li:not(:first-child) {
     display: block;
+  }
+  /* line 299, sass/styles.sass */
+  .photo-container ul.photoes li {
     cursor: pointer;
     text-align: center;
   }
-  /* line 299, sass/styles.sass */
-  ul.photoes li .img {
+  /* line 302, sass/styles.sass */
+  .photo-container ul.photoes li:first-child {
+    display: block;
+  }
+  /* line 304, sass/styles.sass */
+  .photo-container ul.photoes li:not(:first-child) {
+    display: none;
+  }
+  /* line 306, sass/styles.sass */
+  .photo-container ul.photoes li .img {
     width: 300px;
     height: 200px;
     position: relative;
     display: inline-block;
   }
-  /* line 304, sass/styles.sass */
-  ul.photoes li .img .bg {
+  /* line 311, sass/styles.sass */
+  .photo-container ul.photoes li .img .bg {
     background: url("images/frame.png") top left no-repeat;
     background-size: 300px 200px;
     width: 300px;
     height: 200px;
     z-index: 1;
   }
-  /* line 307, sass/styles.sass */
-  ul.photoes li .img img {
+  /* line 314, sass/styles.sass */
+  .photo-container ul.photoes li .img img {
     width: 294px;
     height: 196px;
   }
-
-  /* line 313, sass/styles.sass */
+  /* line 319, sass/styles.sass */
   .photo-container .lSSlideOuter .lSPager.lSGallery img {
     width: 135px;
     height: 90px;
   }
-  /* line 316, sass/styles.sass */
+  /* line 322, sass/styles.sass */
   .photo-container .lSAction > .lSPrev {
     background: url("images/arrow-l.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1188,7 +1221,7 @@ a {
     left: 0;
     background-position: 0 0;
   }
-  /* line 320, sass/styles.sass */
+  /* line 326, sass/styles.sass */
   .photo-container .lSAction > .lSNext {
     background: url("images/arrow-r.png") top left no-repeat;
     background-size: 48.3px 42px;
@@ -1198,19 +1231,19 @@ a {
     background-position: 0 0;
   }
 
-  /* line 325, sass/styles.sass */
+  /* line 331, sass/styles.sass */
   .katya-text {
     text-align: center;
     padding: 0 5px;
   }
 
-  /* line 328, sass/styles.sass */
+  /* line 334, sass/styles.sass */
   a.geo {
     display: inline-block;
     padding-left: 23px;
     position: relative;
   }
-  /* line 332, sass/styles.sass */
+  /* line 338, sass/styles.sass */
   a.geo > .bg {
     opacity: 1;
     z-index: 1;
